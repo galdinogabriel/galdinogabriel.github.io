@@ -1,0 +1,100 @@
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #7b4ae2
+    }
+}
+
+.tracking-in-contract-bck-bottom {
+    -webkit-animation: tracking-in-contract-bck-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-contract-bck-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes tracking-in-contract-bck-bottom {
+    0% {
+        letter-spacing: 1em;
+        -webkit-transform: translateZ(400px) translateY(300px);
+        transform: translateZ(400px) translateY(300px);
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.6;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0) translateY(0);
+        transform: translateZ(0) translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@-webkit-keyframes slide-in-fwd-center {
+    0% {
+        -webkit-transform: translateZ(-1400px);
+        transform: translateZ(-1400px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide-in-fwd-center {
+    0% {
+        -webkit-transform: translateZ(-1400px);
+        transform: translateZ(-1400px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-fwd-center {
+    -webkit-animation: slide-in-fwd-center 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-fwd-center 1.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}

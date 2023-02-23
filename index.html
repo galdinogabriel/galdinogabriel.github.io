@@ -1,62 +1,118 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
-</head>
-
-<body>
-    <header class="menu">
-        <nav class="menu__nav">
-            <img src="Vectorlogo.svg" alt="">
-            <a href="" class="nav__link hover-underline-animation">Início</a>
-            <a href="" class="nav__link hover-underline-animation">Sobre mim</a>
-            <a href="" class="nav__link hover-underline-animation">Portfólio</a>
-            <a href="" class="nav__link hover-underline-animation">Skills</a>
-            <a href="" class="nav__link hover-underline-animation">Contato</a>
-        </nav>
-    </header>
-    <main class="conteudo">
-
-        <section class="conteudo__apresentacao">
-
-            <div class="apresentacao__info">
-
-                <span class="apresentacao__msg">👋Olá, seja bem-vindo(a)!😃</span>
-                <h1 class="apresentacao__nome">Eu sou Gabriel Galdino</h1>
-                <h2 class="apresentacao__carreira">&lt;&gt; Desenvolvedor front-end &lt;/&gt;</h2>
-
-                <div class="apresentacao__social-medias">
-                    <a href=""><img src="linkedin.svg" alt="" class="apresentacao__media-social-icon"></a>
-                    <a href=""><img src="github.svg" alt="" class="apresentacao__media-social-icon"></a>
-                    <a href=""><img src="email.svg" alt="" class="apresentacao__media-social-icon"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/animations.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio</title>
+    </head>
+    <body>
+        <header class="menu">
+            <nav class="menu__nav">
+                <img src="imgs/Vectorlogo.svg" alt="">
+                <a href="" class="nav__link hover-underline-animation"
+                    id="inicio">Início</a>
+                <a href="#isobre-mim" class="nav__link
+                    hover-underline-animation" id="sobre-mim">Sobre mim</a>
+                <a href="" class="nav__link hover-underline-animation"
+                    id="portfolio">Portfólio</a>
+                <a href="" class="nav__link hover-underline-animation"
+                    id="skills">Skills</a>
+                <a href="" class="nav__link hover-underline-animation"
+                    id="contato">Contato</a>
+            </nav>
+        </header>
+        <main class="conteudo">
+            <section class="conteudo__apresentacao">
+                <div class="apresentacao__info">
+                    <span class="apresentacao__msg slide-in-fwd-center">
+                        👋Olá,
+                        seja bem-vindo(a)!😃
+                    </span>
+                    <h1 class="apresentacao__nome">Eu sou Gabriel Galdino</h1>
+                    <h2 class="apresentacao__carreira slide-in-fwd-center"
+                        style="animation-delay: 0.3s;">
+                        &lt;&gt;
+                        Desenvolvedor front-end &lt;/&gt;
+                    </h2>
+                    <div class="apresentacao__social-medias">
+                        <a href="">
+                            <img src="imgs/linkedin.svg" alt=""
+                                class="apresentacao__media-social-icon">
+                        </a>
+                        <a href="">
+                            <img
+                                src="imgs/github.svg"
+                                alt=""
+                                class="apresentacao__media-social-icon"
+                                style="animation-delay: 0.3s;">
+                        </a>
+                        <a href="">
+                            <img
+                                src="imgs/email.svg"
+                                alt=""
+                                class="apresentacao__media-social-icon"
+                                style="animation-delay: 0.6s;">
+                        </a>
+                    </div>
+                    <div class="apresentacao__cv">
+                        <a href="" class="apresentacao__baixar">Baixar CV</a>
+                        <img src="ArrowLineDown.svg" alt="">
+                    </div>
                 </div>
-
-                <div class="apresentacao__cv">
-
-                    <a href="" class="apresentacao__baixar ">Baixar CV</a>
-                    <img src="ArrowLineDown.svg" alt="">
+                <div class="apresentacao__ilustracao
+                    tracking-in-contract-bck-bottom">
+                    <img src="imgs/ilustration.svg" alt=""
+                        class="ilustration__svg">
                 </div>
-
-            </div>
-
-            <div class="apresentacao__ilustracao">
-
-                <img src="ilustration.svg" alt="" class="ilustration__svg">
-                
-            </div>
-
-        </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
-    </main>
-    <footer></footer>
-</body>
-
+            </section>
+            <section class="sobre-mim" id="isobre-mim">
+                <div class="foto-perfil">
+                    <img src="imgs/ProfilePic.svg" alt=""
+                        class="foto-perfil__vetor">
+                    <img src="imgs/pngegg.png" alt="" class="foto-perfil__foto">
+                </div>
+                <div class="sobre-mim__texto">
+                    <span class="apresentacao__msg">👋Sobre mim!😃</span>
+                    <h1 class="sobre-mim__nome">Gabriel Henrique Galdino Matos</h1>
+                    <div>
+                        <p class="sobre-mim__paragrafo">
+                            👋 Me chamo Gabriel
+                            Henrique Galdino Matos, mas pode me chamar
+                            apenas de Gabriel. Prazer!
+                        </p>
+                        <p class="sobre-mim__paragrafo">
+                            ‍💻 Há mais de 2 anos
+                            desenvolvendo e programando interfaces com
+                            HTML, CSS, JavaScript e
+                            React JS.
+                        </p>
+                        <p class="sobre-mim__paragrafo">
+                            🎓 Graduado em Análise e
+                            Desenvolvimento de Sistemas pela UEPA de
+                            Castanhal - PA
+                        </p>
+                        <p class="sobre-mim__paragrafo">
+                            💡 Interesses em
+                            desenvolvimento Front-end com React, React Native e
+                            VueJS
+                        </p>
+                        <p class="sobre-mim__paragrafo">
+                            🚀 Sempre em busca de
+                            novos conhecimentos e desafios !
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio">
+                <span class="apresentacao__msg">Projetos 👀</span>
+            </section>
+            <section></section>
+        </main>
+        <footer></footer>
+    </body>
+    <script src="scripts/scrollReveal.js"></script>
 </html>
