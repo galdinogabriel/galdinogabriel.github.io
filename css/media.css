@@ -1,23 +1,21 @@
 /* for-phone-only */
 @media (max-width: 768px) {
- 
+  
     .conteudo__apresentacao{
+        height: 90vh;
         flex-direction: column;
-        align-items: center;
-        gap:0px;
-        padding-top: 45%;
+        padding-top: 12vh;
+        
     }
-    .ilustration__svg {
-      animation: pulse 5s linear infinite;
-      width: 300px;
-      
-  }
 
+    .apresentacao__info{
+      gap: 16px;
+    }
     .sobre-mim{
         flex-direction: column;
     }
     .apresentacao__media-social-icon{
-      width: 70%;
+      width: 73%;
     }
     
     #burger {
@@ -91,18 +89,10 @@
 
 /* for-tablet */
 @media (max-width:1200px) and (min-width:768px) { 
-
-    .ilustration__svg{
-        width: 500px;
-    }
-    .conteudo__apresentacao{
-        flex-direction: column;
-        align-items: center;
-        padding-top: 45px;
-
-    }
+  
+  
     .div-ilustration{
-        display: inline-block;
+    
         text-align: center;
     }
     #logo1{

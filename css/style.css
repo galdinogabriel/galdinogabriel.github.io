@@ -61,9 +61,11 @@ body {
 .conteudo__apresentacao {
     display: flex;
     flex-direction: row;
-    align-items: center;
+     align-items: center;
     border-bottom: #7B4AE233 2px solid;
     height: 90vh;
+    overflow: hidden;
+
 }
 
 .apresentacao__info {
@@ -71,6 +73,7 @@ body {
     flex-direction: column;
     gap: 30px;
     align-items: start;
+    flex: 1;
 }
 
 .apresentacao__nome {
@@ -96,7 +99,7 @@ body {
 .apresentacao__carreira {
     color: #2CB67D;
     font-family: monospace;
-    font-size: clamp(14px, 1.5vw, 52px);
+    font-size: clamp(12px, 1.5vw, 52px);
 }
 
 .apresentacao__msg {
@@ -114,11 +117,16 @@ body {
     flex-direction: row;
     gap: 20px;
 }
-
-.ilustration__svg {
-    animation: pulse 5s linear infinite;
-    width: 100%;
+.div-ilustration{
+    text-align: center;
+    flex:1;
+   
     
+}
+.ilustration__svg {
+  width: 100%;
+  height: auto;
+    animation: pulse 5s linear infinite;
 }
 
 .apresentacao__baixar {
@@ -164,7 +172,7 @@ body {
 
     color: #ffff;
     font-family: var(--font-destaque);
-    font-size: 48px;
+    font-size: 29px;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
 }
