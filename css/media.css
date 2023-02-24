@@ -1,4 +1,16 @@
 /* for-phone-only */
+@media (max-width: 768px) and (orientation: landscape){
+  
+  .conteudo__apresentacao{
+    height: unset;
+    padding-bottom: 50px;
+  }
+
+  .sobre-mim{
+    height: unset;
+    margin-top: 50px;
+  }
+}
 @media (max-width: 768px) {
 
 

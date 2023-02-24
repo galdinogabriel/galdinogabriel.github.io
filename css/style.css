@@ -148,6 +148,7 @@ body {
     flex-direction: row;
     gap: 5px;
     transition-duration: 0.3s;
+    align-items: end;
 
 }
 
