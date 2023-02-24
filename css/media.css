@@ -5,22 +5,27 @@
         flex-direction: column;
         align-items: center;
         gap:0px;
-        padding-top: 30%;
+        padding-top: 45%;
     }
+    .ilustration__svg {
+      animation: pulse 5s linear infinite;
+      width: 300px;
+      
+  }
 
     .sobre-mim{
         flex-direction: column;
     }
-
-    .ilustration__svg{
-        width: 450px;
+    .apresentacao__media-social-icon{
+      width: 70%;
     }
+    
     #burger {
         position: fixed;
         top: 20px;
         right: 20px;
         background: #15152b;
-        padding: 1rem;
+        padding: 0.5rem;
         z-index: 1000;
         cursor: pointer;
         transition: 0.3s linear;
@@ -48,7 +53,7 @@
       .menu__nav {
         border-radius: unset;
         height: 100vh;
-        width: 300px;
+        width: 50vw;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -74,10 +79,14 @@
       #logo1{
         display: block;
         position: absolute;
-        left: 7%;
-        top: 32px;
+        left:35px;
+        top: 27px;
 
       }
+      .apresentacao__social-medias {
+      
+        gap: 0px;
+    }
  }
 
 /* for-tablet */
