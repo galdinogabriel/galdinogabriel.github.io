@@ -2,15 +2,17 @@
 @media (max-width: 768px) {
 
 
-  .foto-perfil{
+  .foto-perfil {
     width: 200px;
     height: 200px;
 
-}
+  }
+
   .conteudo {
     margin-left: 10%;
     margin-right: 10%;
-}
+  }
+
   .apresentacao__info {
     align-items: center;
 
@@ -134,15 +136,17 @@
   }
 }
 
-@media (max-width: 1200px) and (orientation: landscape){
-  
-  .conteudo__apresentacao{
+@media (max-width: 1200px) and (orientation: landscape) {
+
+  .conteudo__apresentacao {
     height: unset;
     padding-bottom: 50px;
+    padding-top: 50px;
   }
 
-  .sobre-mim{
+  .sobre-mim {
     height: unset;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
