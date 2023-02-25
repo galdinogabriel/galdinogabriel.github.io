@@ -1,7 +1,16 @@
 /* for-phone-only */
 @media (max-width: 768px) {
 
+  .projetos-grid {
+   
+    grid-template-columns: 1fr;
+   
+   
+}
 
+.projetos-grid__item--breve{
+  padding: 35%;
+}
   .foto-perfil {
     width: 200px;
     height: 200px;
@@ -149,4 +158,11 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  .projetos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+   
+}
 }
