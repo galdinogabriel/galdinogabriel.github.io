@@ -67,8 +67,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: #7B4AE233 2px solid;
-    height: 90vh;
+    height: 91vh;
 }
 
 .apresentacao__info {
@@ -105,10 +104,8 @@ a{
 }
 
 .apresentacao__msg {
-    padding: 2%;
-    background: rgba(123, 74, 226, 0.1);
     border-radius: 16px;
-    color: #ffff;
+    color: #FFFFFF80;
     font-size: clamp(15px, 1.0vw, 52px);
     font-family: var(--font-destaque);
     font-weight: bold;
@@ -164,11 +161,9 @@ a{
 
 .sobre-mim {
     display: flex;
-    border-bottom: #7B4AE233 2px solid;
+    flex-direction: column;
     align-items: center;
-    gap: 10%;
-    height: 100vh;
-
+    gap: 70px;
 }
 
 .sobre-mim__nome {
@@ -217,7 +212,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 90px;
+    gap: 5vh;
     padding-top: 20%;
     padding-bottom: 200px;
 }
@@ -254,7 +249,7 @@ a{
 }
 .projetos-grid__item__title{
     font-family: var(--font-destaque);
-    font-size: 20px;
+    font-size: clamp(16px,2vw,22px);
     color: #ffff;
 }
 .projetos-grid__item__descricao{
