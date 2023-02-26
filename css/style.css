@@ -41,6 +41,7 @@ a{
     flex-direction: row;
     align-items: center;
     gap: 4%;
+    
     background: #7a4ae210;
     border-radius: 16px;
     padding: 25px 0px 20px 30px
@@ -48,8 +49,8 @@ a{
 
 .nav__link {
     text-decoration: none;
-    color: #FFFFFF80;
-    font-size: clamp(18px, 2vw, 18px);
+    color: #FFFF;
+    font-size: clamp(16px, 2vw, 23px);
     font-family: var(--font-destaque);
     font-weight: 400;
     transition: 0.1s;
@@ -81,7 +82,7 @@ a{
 .apresentacao__nome {
     color: #ffff;
     font-family: var(--font-destaque);
-    font-size: clamp(20px, 2.70vw, 52px);
+    font-size: clamp(20px, 2.70vw, 62px);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     overflow: hidden;
@@ -100,13 +101,13 @@ a{
 .apresentacao__carreira {
     color: #2CB67D;
     font-family: monospace;
-    font-size: clamp(11px, 2vw, 20px);
+    font-size: clamp(14px, 2vw, 23px);
 }
 
 .apresentacao__msg {
     border-radius: 16px;
-    color: #FFFFFF80;
-    font-size: clamp(15px, 1.0vw, 52px);
+    color: #7B4AE2;
+    font-size: clamp(16px, 2.0vw, 62px);
     font-family: var(--font-destaque);
     font-weight: bold;
 }
@@ -114,9 +115,15 @@ a{
 .apresentacao__social-medias {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
-
+.apresentacao__social-medias a{
+   padding: 0px;
+   margin: 0px;
+   width: 30%;
+}
 .div-ilustration {
     text-align: center;
     flex: 1;
@@ -129,25 +136,18 @@ a{
 }
 
 .apresentacao__baixar {
-    font-size: clamp(11px, 2vw, 20px);
+    padding: 8px;
+    border-radius: 8px;
+    font-size: clamp(16px, 2vw, 23px);
     font-family: var(--font-destaque);
     font-weight: 500;
     text-decoration: none;
-    color: #7B4AE280;
+    color: #7B4AE2;
+    background: rgba(123, 74, 226, 0.1);
 }
 
 .apresentacao__cv:hover {
     transform: scale(1.1);
-    color: #7B4AE280;
-}
-
-.apresentacao__cv {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    transition-duration: 0.3s;
-    align-items: end;
-
 }
 
 .apresentacao__media-social-icon {
@@ -171,14 +171,14 @@ a{
 .sobre-mim__nome {
     color: #ffff;
     font-family: var(--font-destaque);
-    font-size: clamp(20px, 2.70vw, 52px);
+    font-size: clamp(20px, 2.70vw, 62px);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
 }
 
 .sobre-mim__paragrafo {
     font-family: var(--font-destaque);
-    font-size: clamp(11px, 1.8vw, 20px);
+    font-size: clamp(16px, 1.8vw, 23px);
     font-weight: 400;
     color: #FFFFFF80;
     margin-top: 10px;
@@ -193,8 +193,8 @@ a{
 }
 
 .foto-perfil {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -251,12 +251,12 @@ a{
 }
 .projetos-grid__item__title{
     font-family: var(--font-destaque);
-    font-size: clamp(16px,2vw,22px);
+    font-size: clamp(16px,2vw,23px);
     color: #ffff;
 }
 .projetos-grid__item__descricao{
     font-family: var(--font-destaque);
-    font-size: clamp(11px, 1.8vw, 14px);
+    font-size: clamp(16px, 1.8vw, 23px);
     font-weight: 400;
     color: #FFFFFF80;
 }
@@ -269,9 +269,8 @@ a{
     padding: 10px;
     font-family: var(--font-destaque);
     font-weight: 700;
-    font-size: 10px;
+    font-size: clamp(16px, 1.8vw, 23px);
     color: #7B4AE2;
-    background: rgba(123, 74, 226, 0.1);
     border-radius: 8px;
  }
  .projetos-grid__item:hover{
@@ -287,6 +286,14 @@ a{
     justify-content: center;
     gap: 6vh;
  }
+ .skills-grid img{
+    width: 30%;
+    
+ }
+
+ .skills-utilizei-grid img{
+    width: 25%;
+ }
  .skills-grid{
     padding-top: 3%;
     padding-bottom: 3%;
@@ -294,33 +301,34 @@ a{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 10vh;
+   
     
 
  }
  .skills-utilizei-grid{
-    display: grid;
     padding-top: 3%;
     padding-bottom: 3%;
-    width: 30vw;
+    width: 40vw;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10vh;;
+    row-gap: 10vh;
+   
    
  }
 
  .skills-grid__item{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 10px;
 
  }
  .skills-grid__item>span{
-    font-size: 14px;
+    font-size: clamp(16px, 1.8vw, 23px);
  }
  .skills-utilizei-grid>span{
-    font-size: 14px;
+    font-size: clamp(16px, 1.8vw, 23px);
  }
 /*------------------ animacoes ------------------------- */
 
