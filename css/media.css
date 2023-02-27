@@ -3,8 +3,9 @@
 
   .projetos-grid {
 
-    grid-template-columns: 1fr;
-
+    display: grid;
+  grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr);
 
   }
 
@@ -19,6 +20,9 @@
   width: 80vw;
  }
 
+ .mensagem-contato{
+  padding: 34% 10%;
+ }
  .skills-grid__item{
   flex-direction: column;
   justify-content: start;
@@ -30,7 +34,7 @@ width: 20%;
 }
 
   .projetos-grid__item--breve {
-    padding: 35%;
+   
   }
 
   .foto-perfil {
@@ -74,7 +78,9 @@ width: 20%;
   .apresentacao__media-social-icon {
     width: 70%;
   }
-
+.criador{
+  padding: 10%;
+}
   #burger {
     position: fixed;
     top: 20px;

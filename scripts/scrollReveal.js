@@ -8,3 +8,15 @@ burger.addEventListener('click', () => {
     burger.classList.toggle('active');
     nav.classList.toggle('active');
 });
+
+
+
+const links = document.querySelectorAll(".nav__link")
+
+links.forEach(element => {
+    element.addEventListener('click', () => {
+        burger.classList.toggle('active');
+        nav.classList.toggle('active');
+    });
+  });
+

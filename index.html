@@ -20,21 +20,19 @@
             </div>
             <nav class="menu__nav">
                 <img src="imgs/Vectorlogo.svg" alt="" id="logo2">
-                <a href="" class="nav__link hover-underline-animation"
-                    id="inicio">Início</a>
+                <a href="#inicio" class="nav__link hover-underline-animation">Início</a>
                 <a href="#isobre-mim" class="nav__link
-                    hover-underline-animation" id="sobre-mim">Sobre mim</a>
+                    hover-underline-animation" id="sobre-mim"
+                    onclick="desaperecerMenu()">Sobre mim</a>
                 <a href="#iportfolio" class="nav__link
                     hover-underline-animation"
                     id="portfolio">Portfólio</a>
                 <a href="#idskiils" class="nav__link hover-underline-animation"
                     id="skills">Skills</a>
-                <a href="" class="nav__link hover-underline-animation"
-                    id="contato">Contato</a>
             </nav>
         </header>
         <main class="conteudo">
-            <section class="conteudo__apresentacao">
+            <section class="conteudo__apresentacao" id="inicio">
                 <div class="apresentacao__info">
                     <span class="apresentacao__msg slide-in-fwd-center">
                         Hello World! <span style="color: #ffff;">😃</span>
@@ -227,9 +225,20 @@
                     </div>
                 </div>
             </section>
-            <section></section>
         </main>
-        <footer></footer>
+        <footer class="rodape">
+            <div class="mensagem-contato">
+                <h2>Tenho alguma oportunidade na sua empresa?</h2>
+                <h1>Entre em contato, vamos conversar!</h1>
+                <div class="rodape__links">
+                    <a href="" class="rodape__botao">Linkedin</a>
+                    <a href="#" class="rodape__voltar">Voltar para o topo</a>
+                </div>
+            </div>
+            <div class="criador">
+                <p class="criador__title">Criado por Gabriel Matos</p>
+            </div>
+        </footer>
     </body>
     <script src="scripts/scrollReveal.js"></script>
 </html>

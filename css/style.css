@@ -193,8 +193,8 @@ a{
 }
 
 .foto-perfil {
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     background-color: white;
     display: flex;
@@ -216,7 +216,6 @@ a{
     justify-content: center;
     gap: 5vh;
     padding-top: 10%;
-    padding-bottom: 200px;
 }
 
 .projetos-grid {
@@ -231,8 +230,7 @@ a{
     flex-direction: column;
     gap: 30px;
     padding: 10%;
-    width: auto;
-    height: auto;
+  
     background: rgba(123, 74, 226, 0.1);
     border-radius: 16px;
     transition: 0.5s;
@@ -278,8 +276,7 @@ a{
  }
 
  .skills{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -330,6 +327,62 @@ a{
  .skills-utilizei-grid>span{
     font-size: clamp(16px, 1.8vw, 23px);
  }
+
+ .criador{
+    text-align: center;
+    font-family: var(--font-destaque);
+    color: #ffff;
+    font-size: clamp(16px, 1.8vw, 23px);
+    padding: 2%;
+    background: #7a4ae210;
+ }
+
+ .mensagem-contato{
+    padding: 10% 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    text-align: center;
+    font-family: var(--font-destaque);
+    color: #ffff;
+  
+    padding-bottom: 10%;
+    
+ }
+ .mensagem-contato h1{
+    color: #7B4AE2;
+     font-size: clamp(20px, 2.0vw, 62px);
+ }
+.mensagem-contato h2{
+    font-size: clamp(16px, 2.0vw, 23px);
+}
+ .rodape__botao{
+    border-radius: 16px;
+    color: #7B4AE2;
+    font-size: clamp(16px, 2.0vw, 30px);
+    font-family: var(--font-destaque);
+    font-weight: bold;
+    background: rgba(123, 74, 226, 0.1);
+    color:#7B4AE2;
+    padding: 12px;
+ }
+
+ .rodape__voltar{
+    color: #ffff;
+ }
+
+ .rodape__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+ }
+
+ .rodape__voltar{
+    font-family: var(--font-destaque);
+    font-size: clamp(16px, 2.0vw, 23px);
+ }
+
 /*------------------ animacoes ------------------------- */
 
 @-webkit-keyframes pulse {
