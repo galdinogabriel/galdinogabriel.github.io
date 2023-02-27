@@ -4,38 +4,38 @@
   .projetos-grid {
 
     display: grid;
-  grid-template-columns: 1fr;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
 
   }
 
-  .skills-utilizei-grid{
+  .skills-utilizei-grid {
     grid-template-columns: 1fr 1fr;
     width: 80vw;
     row-gap: 5vh;
   }
 
- .skills-grid{
-  grid-template-columns: 1fr 1fr;
-  width: 80vw;
- }
-
- .mensagem-contato{
-  padding: 34% 10%;
- }
- .skills-grid__item{
-  flex-direction: column;
-  justify-content: start;
- }
- .skills-grid__item>img{
- 
-
-width: 20%;
-}
-
-  .projetos-grid__item--breve {
-   
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
   }
+
+  .mensagem-contato {
+    padding: 34% 10%;
+  }
+
+  .skills-grid__item {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .skills-grid__item>img {
+
+
+    width: 20%;
+  }
+
+  .projetos-grid__item--breve {}
 
   .foto-perfil {
     width: 200px;
@@ -68,6 +68,14 @@ width: 20%;
     gap: 16px;
   }
 
+  .portfolio {
+    padding-top: 30%;
+  }
+
+  .skills {
+    padding-top: 30%;
+  }
+
   .sobre-mim {
     flex-direction: column;
     align-items: center;
@@ -78,9 +86,11 @@ width: 20%;
   .apresentacao__media-social-icon {
     width: 70%;
   }
-.criador{
-  padding: 10%;
-}
+
+  .criador {
+    padding: 10%;
+  }
+
   #burger {
     position: fixed;
     top: 20px;
@@ -193,7 +203,8 @@ width: 20%;
     grid-template-rows: 1fr 1fr 1fr;
 
   }
-  .foto-perfil{
+
+  .foto-perfil {
     width: 200px;
     height: 200px;
   }
