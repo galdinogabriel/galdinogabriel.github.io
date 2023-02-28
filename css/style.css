@@ -234,6 +234,12 @@ a {
     text-align: center;
 }
 
+.sobre-mim__subtitulo{
+    font-family: var(--font-principal);
+    color: #7B4AE2;
+    font-size: clamp(16px, 1.8vw, 23px);
+}
+
 .card__icon {
     width: 100%;
 }
@@ -376,9 +382,6 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 10vh;
-
-
-
 }
 
 .skills-utilizei-grid {
