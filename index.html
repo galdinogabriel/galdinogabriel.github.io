@@ -12,23 +12,23 @@
     </head>
     <body>
         <header class="menu">
-            <img src="imgs/Vectorlogo.svg" alt="" id="logo1">
-            <div id="burger">
+            <img src="imgs/Vectorlogo.svg" alt="logo" id="logo1">
+            <div id="burger-menu">
                 <div class="line"></div>
                 <div class="line"></div>
                 <div class="line"></div>
             </div>
             <nav class="menu__nav">
-                <img src="imgs/Vectorlogo.svg" alt="" id="logo2">
+                <img src="imgs/Vectorlogo.svg" alt="logo" id="logo2">
                 <a href="#inicio" class="nav__link hover-underline-animation">Início</a>
                 <a href="#isobre-mim" class="nav__link
                     hover-underline-animation" id="sobre-mim"
                     onclick="desaperecerMenu()">Sobre mim</a>
+                <a href="#idskiils" class="nav__link hover-underline-animation"
+                    id="skills">Skills</a>
                 <a href="#iportfolio" class="nav__link
                     hover-underline-animation"
                     id="portfolio">Portfólio</a>
-                <a href="#idskiils" class="nav__link hover-underline-animation"
-                    id="skills">Skills</a>
             </nav>
         </header>
         <main class="conteudo">
@@ -44,23 +44,18 @@
                         Desenvolvedor front-end &lt;/&gt;
                     </h2>
                     <div class="apresentacao__social-medias">
-                        <a href="">
-                            <img src="imgs/linkedin.svg" alt=""
+                        <a href="https://www.linkedin.com/in/gabriel-galdino1/"
+                            target="_blank">
+                            <img src="imgs/social-medias-icons/linkedin.svg" alt="Link Linkedin"
                                 class="apresentacao__media-social-icon">
                         </a>
-                        <a href="">
+                        <a href="https://github.com/galdinogabriel"
+                            target="_blank">
                             <img
-                                src="imgs/github.svg"
-                                alt=""
+                                src="imgs/social-medias-icons/github.svg"
+                                alt="Link Github"
                                 class="apresentacao__media-social-icon"
                                 style="animation-delay: 0.3s;">
-                        </a>
-                        <a href="">
-                            <img
-                                src="imgs/email.svg"
-                                alt=""
-                                class="apresentacao__media-social-icon"
-                                style="animation-delay: 0.6s;">
                         </a>
                     </div>
                     <div class="apresentacao__cv">
@@ -68,7 +63,7 @@
                     </div>
                 </div>
                 <div class="div-ilustration tracking-in-contract-bck-bottom">
-                    <img src="imgs/Digital nomad-bro.svg" alt=""
+                    <img src="imgs/ilustracao.svg" alt="Ilustração de um dev"
                         class="ilustration__svg">
                 </div>
 
@@ -77,167 +72,203 @@
             <section class="sobre-mim" id="isobre-mim">
 
                 <div class="foto-perfil">
-                    <img src="imgs/pngegg.png" alt="" class="foto-perfil__foto">
+                    <img src="imgs/perfil/pngegg.png" alt="Foto de perfil" class="foto-perfil__foto">
                 </div>
 
                 <div class="sobre-mim__texto">
 
                     <h1 class="sobre-mim__nome">Gabriel Galdino</h1>
                     <div>
-                        <p class="sobre-mim__paragrafo">
-                            👋 Me chamo Gabriel
-                            Henrique Galdino Matos, mas pode me chamar
-                            apenas de Gabriel. Prazer!
+                        <p class="conteudo__paragrafo">
+                            Olá! meu nome Gabriel Henrique Galdino Matos😀, sou um
+                            <strong>desenvolvedor front-end</strong> em busca de
+                            oportunidades
+                            para crescer e evoluir profissionalmente. Possuo uma
+                            enorme paixão pela programação e em criar soluções
+                            visuais e interativas para sites e aplicações web!
                         </p>
-                        <p class="sobre-mim__paragrafo">
-                            ‍💻 Há mais de 2 anos
-                            desenvolvendo e programando interfaces com
-                            HTML, CSS, JavaScript e
-                            React JS.
+                        <p class="conteudo__paragrafo">
+                            Considero como meu maior <strong>diferencial</strong>
+                            a minha capacidade de sempre
+                            estar buscando aprender mais e melhorar minhas
+                            habilidades, mantendo-me atualizado com as últimas
+                            tendências e tecnologias front-end 🧐
                         </p>
-                        <p class="sobre-mim__paragrafo">
-                            🎓 Graduado em Análise e
-                            Desenvolvimento de Sistemas pela UEPA de
-                            Castanhal - PA
-                        </p>
-                        <p class="sobre-mim__paragrafo">
-                            💡 Interesses em
-                            desenvolvimento Front-end com React, React Native e
-                            VueJS
-                        </p>
-                        <p class="sobre-mim__paragrafo">
-                            🚀 Sempre em busca de
-                            novos conhecimentos e desafios!
+                        <p class="conteudo__paragrafo">
+                            Estou animado para ingressar em uma equipe dedicada
+                            a criar soluções digitais e estou comprometido em
+                            fazer uma contribuição significativa para a equipe.
+                            Gostaria de ter a oportunidade de mostrar meu
+                            potencial e aprender com profissionais experientes.
+                            😁
                         </p>
                     </div>
+
+                    <div class="sobre-mim__card">
+
+                        <div>
+                            <img src="imgs/icones-gerais/academic vector.svg"
+                                alt="ilustração de capelo" class="card__icon">
+                        </div>
+
+                        <div class="card__informacoes">
+                            <h2 class="card__titulo">Formado | Ensino Superior</h2>
+                            <p class="card__texto">Análise e Desenvolvimento de
+                                Sistemas</p>
+                            <p class="card__descricao">Universidade do Estado do
+                                Pará - UEPA -
+                                Campus XX</p>
+                        </div>
+
+                    </div>
+
+                    <div class="sobre-mim__card">
+
+                        <div>
+                            <img src="imgs/icones-gerais/target.svg" alt="ilustração de alvo"
+                                class="card__icon">
+                        </div>
+
+                        <div class="card__informacoes">
+                            <h2 class="card__titulo">Interesse atual</h2>
+                            <p class="card__texto">Oportunidade como dev
+                                Front-End</p>
+                            <p class="card__descricao">React, Javascript, CSS,
+                                HTML</p>
+                        </div>
+
+                    </div>
+
+                </section>
+                <section class="skills" id="idskiils">
+
+
+                    <h1 class="sobre-mim__nome">Habilidades</h1>
+                    <span class="apresentacao__msg slide-in-fwd-center">
+                        principais techs
+                    </span>
+
+
+                    <div class="skills-grid">
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/html.svg" alt="html 5">
+                            <span class="sobre-mim__paragrafo">HTML</span>
+                        </div>
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/css.svg" alt="CSS">
+                            <span class="sobre-mim__paragrafo">CSS</span>
+                        </div>
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/javascript.svg" alt="Javascript">
+                            <span class="sobre-mim__paragrafo">Java Script</span>
+                        </div>
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/react.svg" alt="React">
+                            <span class="sobre-mim__paragrafo">React</span>
+                        </div>
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/git.svg" alt="Git">
+                            <span class="sobre-mim__paragrafo">Git</span>
+                        </div>
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/github.svg" alt="Github">
+                            <span class="sobre-mim__paragrafo">Github</span>
+                        </div>
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/figma.svg" alt="Figma">
+                            <span class="sobre-mim__paragrafo">Figma</span>
+                        </div>
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/vscode.svg" alt="Visual Studio Code">
+                            <span class="sobre-mim__paragrafo">VS Code</span>
+                        </div>
+                    </div>
+                    <span class="apresentacao__msg slide-in-fwd-center">
+                        Techs que já utilizei
+                    </span>
+                    <div class="skills-utilizei-grid">
+                        <div class="skills-grid__item">
+                            <img src="imgs/icons_tech/node.svg" alt="Node JS">
+                            <span class="sobre-mim__paragrafo">Node JS</span>
+                        </div><div class="skills-grid__item">
+                            <img src="imgs/icons_tech/vue.svg" alt="Vue JS">
+                            <span class="sobre-mim__paragrafo">Vue</span>
+                        </div><div class="skills-grid__item">
+                            <img src="imgs/icons_tech/flutter.svg" alt="Flutter">
+                            <span class="sobre-mim__paragrafo">Flutter</span>
+                        </div><div class="skills-grid__item">
+                            <img src="imgs/icons_tech/mongodb.svg" alt="MongoDB">
+                            <span class="sobre-mim__paragrafo">MongoDB</span>
+                        </div><div class="skills-grid__item">
+                            <img src="imgs/icons_tech/typescript.svg" alt="typescript">
+                            <span class="sobre-mim__paragrafo">typescript</span>
+                        </div><div class="skills-grid__item">
+                            <img src="imgs/icons_tech/photoshop.svg" alt="Photoshop">
+                            <span class="sobre-mim__paragrafo">photoshop</span>
+                        </div>
+
+                    </div>
+                </section>
+                <section class="portfolio" id="iportfolio">
+                    <h1 class="sobre-mim__nome">Trabalhos e projetos 🔗</h1>
+                    <div class="projetos-grid">
+                        <a href=""
+                            target="_blank"> <div class="projetos-grid__item">
+                                <h2 class="projetos-grid__item__title">Landing
+                                    Page</h2>
+                                <p class="projetos-grid__item__descricao">Aplicação
+                                    desenvolvida inteiramente usando somente
+                                    HTML,
+                                    CSS e Javascript</p>
+                                <div>
+                                    <span class="projetos-grid__item__tags">html</span>
+                                    <span class="projetos-grid__item__tags">css</span>
+                                    <span class="projetos-grid__item__tags">JavaScript</span>
+                                </div>
+
+                                <div>
+                                    <img src="imgs/projetos-thumbs/image 2.jpg" alt="Imagem do projeto">
+                                </div>
+
+                            </div></a>
+
+                        <div class="projetos-grid__item--breve">
+                            <h2 class="projetos-grid__item__title">Em breve</h2>
+                            <span class="projetos-grid__item__tags">Futuros</span>
+                        </div>
+                        <div class="projetos-grid__item--breve">
+                            <h2 class="projetos-grid__item__title">Em breve</h2>
+                            <span class="projetos-grid__item__tags">Futuros</span>
+                        </div>
+                        <div class="projetos-grid__item--breve">
+                            <h2 class="projetos-grid__item__title">Em breve</h2>
+                            <span class="projetos-grid__item__tags">Futuros</span>
+                        </div>
+                        <div class="projetos-grid__item--breve">
+                            <h2 class="projetos-grid__item__title">Em breve</h2>
+                            <span class="projetos-grid__item__tags">Futuros</span>
+                        </div>
+                        <div class="projetos-grid__item--breve">
+                            <h2 class="projetos-grid__item__title">Em breve</h2>
+                            <span class="projetos-grid__item__tags">Futuros</span>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer class="rodape">
+                <div class="mensagem-contato">
+                    <h2>Tenho alguma oportunidade na sua empresa?</h2>
+                    <h1>Entre em contato, vamos conversar!</h1>
+                    <div class="rodape__links">
+                        <a href="https://www.linkedin.com/in/gabriel-galdino1/"
+                            target="_blank" class="rodape__botao">Linkedin</a>
+                        <a href="#" class="rodape__voltar">Voltar para o topo</a>
+                    </div>
                 </div>
-            </section>
-            <section class="skills" id="idskiils">
-
-
-                <h1 class="sobre-mim__nome">Hard skills</h1>
-                <span class="apresentacao__msg slide-in-fwd-center">
-                    principais techs
-                </span>
-
-
-                <div class="skills-grid">
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/html.svg" alt="">
-                        <span class="sobre-mim__paragrafo">HTML</span>
-                    </div>
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/css.svg" alt="">
-                        <span class="sobre-mim__paragrafo">CSS</span>
-                    </div>
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/javascript.svg" alt="">
-                        <span class="sobre-mim__paragrafo">Java Script</span>
-                    </div>
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/react.svg" alt="">
-                        <span class="sobre-mim__paragrafo">React</span>
-                    </div>
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/git.svg" alt="">
-                        <span class="sobre-mim__paragrafo">Git</span>
-                    </div>
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/github.svg" alt="">
-                        <span class="sobre-mim__paragrafo">Github</span>
-                    </div>
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/figma.svg" alt="">
-                        <span class="sobre-mim__paragrafo">Figma</span>
-                    </div>
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/vscode.svg" alt="">
-                        <span class="sobre-mim__paragrafo">VS Code</span>
-                    </div>
+                <div class="criador">
+                    <p class="criador__title">Criado por Gabriel Matos</p>
                 </div>
-                <span class="apresentacao__msg slide-in-fwd-center">
-                    Techs que já utilizei
-                </span>
-                <div class="skills-utilizei-grid">
-                    <div class="skills-grid__item">
-                        <img src="imgs/icons_tech/node.svg" alt="">
-                        <span class="sobre-mim__paragrafo">Node JS</span>
-                    </div><div class="skills-grid__item">
-                        <img src="imgs/icons_tech/vue.svg" alt="">
-                        <span class="sobre-mim__paragrafo">Vue</span>
-                    </div><div class="skills-grid__item">
-                        <img src="imgs/icons_tech/flutter.svg" alt="">
-                        <span class="sobre-mim__paragrafo">Flutter</span>
-                    </div><div class="skills-grid__item">
-                        <img src="imgs/icons_tech/mongodb.svg" alt="">
-                        <span class="sobre-mim__paragrafo">MongoDB</span>
-                    </div><div class="skills-grid__item">
-                        <img src="imgs/icons_tech/typescript.svg" alt="">
-                        <span class="sobre-mim__paragrafo">typescript</span>
-                    </div><div class="skills-grid__item">
-                        <img src="imgs/icons_tech/photoshop.svg" alt="">
-                        <span class="sobre-mim__paragrafo">photoshop</span>
-                    </div>
-
-                </div>
-            </section>
-            <section class="portfolio" id="iportfolio">
-                <h1 class="sobre-mim__nome">Projetos 🔗</h1>
-                <div class="projetos-grid">
-                    <a href=""
-                        target="_blank"> <div class="projetos-grid__item">
-                            <h2 class="projetos-grid__item__title">Landing Page</h2>
-                            <p class="projetos-grid__item__descricao">Aplicação
-                                desenvolvida inteiramente usando somente HTML,
-                                CSS e Javascript</p>
-                            <div>
-                                <span class="projetos-grid__item__tags">html</span>
-                                <span class="projetos-grid__item__tags">css</span>
-                                <span class="projetos-grid__item__tags">JavaScript</span>
-                            </div>
-
-                            <div>
-                                <img src="imgs/image 2.jpg" alt="">
-                            </div>
-
-                        </div></a>
-
-                    <div class="projetos-grid__item--breve">
-                        <h2 class="projetos-grid__item__title">Em breve</h2>
-                        <span class="projetos-grid__item__tags">Futuros</span>
-                    </div>
-                    <div class="projetos-grid__item--breve">
-                        <h2 class="projetos-grid__item__title">Em breve</h2>
-                        <span class="projetos-grid__item__tags">Futuros</span>
-                    </div>
-                    <div class="projetos-grid__item--breve">
-                        <h2 class="projetos-grid__item__title">Em breve</h2>
-                        <span class="projetos-grid__item__tags">Futuros</span>
-                    </div>
-                    <div class="projetos-grid__item--breve">
-                        <h2 class="projetos-grid__item__title">Em breve</h2>
-                        <span class="projetos-grid__item__tags">Futuros</span>
-                    </div>
-                    <div class="projetos-grid__item--breve">
-                        <h2 class="projetos-grid__item__title">Em breve</h2>
-                        <span class="projetos-grid__item__tags">Futuros</span>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="rodape">
-            <div class="mensagem-contato">
-                <h2>Tenho alguma oportunidade na sua empresa?</h2>
-                <h1>Entre em contato, vamos conversar!</h1>
-                <div class="rodape__links">
-                    <a href="" class="rodape__botao">Linkedin</a>
-                    <a href="#" class="rodape__voltar">Voltar para o topo</a>
-                </div>
-            </div>
-            <div class="criador">
-                <p class="criador__title">Criado por Gabriel Matos</p>
-            </div>
-        </footer>
-    </body>
-    <script src="scripts/scrollReveal.js"></script>
-</html>
+            </footer>
+        </body>
+        <script src="scripts/menu-burger.js"></script>
+    </html>

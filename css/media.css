@@ -1,126 +1,8 @@
 /* for-phone-only */
 @media (max-width: 768px) {
 
-  .projetos-grid {
-
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
-
-  }
-
-  .skills-utilizei-grid {
-    grid-template-columns: 1fr 1fr;
-    width: 80vw;
-    row-gap: 5vh;
-  }
-
-  .skills-grid {
-    grid-template-columns: 1fr 1fr;
-    width: 80vw;
-  }
-
-  .mensagem-contato {
-    padding: 34% 10%;
-  }
-
-  .skills-grid__item {
-    flex-direction: column;
-    justify-content: start;
-  }
-
-  .skills-grid__item>img {
-
-
-    width: 20%;
-  }
-
-  .projetos-grid__item--breve {}
-
-  .foto-perfil {
-    width: 200px;
-    height: 200px;
-
-  }
-
-  .conteudo {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .apresentacao__info {
-    align-items: center;
-
-  }
-
-  .conteudo__apresentacao {
-
-    flex-direction: column-reverse;
-    padding-top: 12vh;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
-
-
-  }
-
-  .apresentacao__info {
-    gap: 16px;
-  }
-
-  .portfolio {
-    padding-top: 30%;
-  }
-
-  .skills {
-    padding-top: 30%;
-  }
-
-  .sobre-mim {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-
-  .apresentacao__media-social-icon {
-    width: 70%;
-  }
-
-  .criador {
-    padding: 10%;
-  }
-
-  #burger {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    background: #15152b;
-    padding: 0.5rem;
-    z-index: 1000;
-    cursor: pointer;
-    transition: 0.3s linear;
-    box-shadow: 2px 2px 5px #17141d;
-  }
-
-  #burger:hover {
-    background-color: #7b4ae2;
-  }
-
-  .line {
-    width: 22px;
-    margin-bottom: 5px;
-    height: 2px;
-    background-color: white;
-  }
-
-  .line:last-child {
-    margin-bottom: 0;
-  }
-
   .menu {
     margin-top: 0px;
-
   }
 
   .menu__nav {
@@ -140,7 +22,6 @@
     margin-left: 200px;
     z-index: 1;
     padding-top: 80px;
-
   }
 
   .menu__nav.active {
@@ -156,30 +37,158 @@
     position: absolute;
     left: 35px;
     top: 27px;
+  }
 
+  #burger-menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #15152b;
+    padding: 0.5rem;
+    z-index: 1000;
+    cursor: pointer;
+    transition: 0.3s linear;
+    box-shadow: 2px 2px 5px #17141d;
+  }
+
+  #burger-menu:hover {
+    background-color: #7b4ae2;
+  }
+
+  .line {
+    width: 22px;
+    margin-bottom: 5px;
+    height: 2px;
+    background-color: white;
+  }
+
+  .line:last-child {
+    margin-bottom: 0;
+  }
+
+  .conteudo {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .conteudo__apresentacao {
+    flex-direction: column-reverse;
+    padding-top: 12vh;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+
+  .apresentacao__media-social-icon {
+    width: 70%;
+  }
+
+  .apresentacao__info {
+    align-items: center;
+  }
+
+  .apresentacao__info {
+    gap: 16px;
   }
 
   .apresentacao__social-medias {
-
     gap: 0px;
   }
+
+  .sobre-mim {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .foto-perfil {
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .sobre-mim__card {
+    width: 100%;
+    gap: 30px;
+    padding: 10%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card__informacoes {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card__icon {
+    width: 60%;
+    text-align: center;
+  }
+
+  .skills {
+    padding-top: 30%;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+  }
+
+  .skills-utilizei-grid {
+    grid-template-columns: 1fr 1fr;
+    width: 80vw;
+    row-gap: 5vh;
+  }
+
+  .skills-grid__item {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .skills-grid__item>img {
+    width: 20%;
+  }
+
+
+  .portfolio {
+    padding-top: 30%;
+  }
+
+  .projetos-grid {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+
+  }
+
+  .mensagem-contato {
+    padding: 34% 10%;
+  }
+
+  .criador {
+    padding: 10%;
+  }
+
 }
 
 /* for-tablet */
 @media (max-width:1200px) and (min-width:768px) {
-
-
-  .div-ilustration {
-
-    text-align: center;
-  }
-
   #logo1 {
     display: none;
   }
 
   .menu__nav {
     gap: 6%;
+  }
+
+  .div-ilustration {
+    text-align: center;
   }
 }
 
@@ -197,6 +206,11 @@
     padding-bottom: 50px;
   }
 
+  .foto-perfil {
+    width: 200px;
+    height: 200px;
+  }
+
   .projetos-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -204,8 +218,4 @@
 
   }
 
-  .foto-perfil {
-    width: 200px;
-    height: 200px;
-  }
 }
