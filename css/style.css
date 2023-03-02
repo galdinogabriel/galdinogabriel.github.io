@@ -6,7 +6,14 @@ html {
 }
 
 :root {
+
     --font-principal: 'Raleway', sans-serif;
+
+    --cor-destaque: #777DF2;
+    --cor-background:#0D0D0D;
+    --cor-secundaria: #2F3272;
+    --cor-tercearia: #E9E9F2;
+    --texto-secundario: #FFFFFF80;
 }
 
 * {
@@ -16,7 +23,7 @@ html {
 }
 
 body {
-    background: #090E16;
+    background: var(--cor-background);
 }
 
 a {
@@ -41,15 +48,14 @@ a {
     flex-direction: row;
     align-items: center;
     gap: 4%;
-
-    background: #7a4ae210;
+    background: var(--cor-destaque);
     border-radius: 16px;
     padding: 25px 0px 20px 30px
 }
 
 .nav__link {
     text-decoration: none;
-    color: #FFFF;
+    color: var(--cor-tercearia);
     font-size: clamp(16px, 2vw, 23px);
     font-family: var(--font-principal);
     font-weight: 400;
@@ -80,14 +86,14 @@ a {
 }
 
 .apresentacao__nome {
-    color: #ffff;
+    color: var(--cor-tercearia);
     font-family: var(--font-principal);
     font-size: clamp(20px, 2.70vw, 62px);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid #7b4ae2;
+    border-right: .15em solid var(--cor-secundaria);
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -99,14 +105,14 @@ a {
 }
 
 .apresentacao__carreira {
-    color: #2CB67D;
+    color: var(--cor-tercearia);
     font-family: monospace;
     font-size: clamp(14px, 2vw, 23px);
 }
 
 .apresentacao__msg {
     border-radius: 16px;
-    color: #7B4AE2;
+    color: var(--texto-secundario);
     font-size: clamp(16px, 2.0vw, 62px);
     font-family: var(--font-principal);
     font-weight: bold;
@@ -145,8 +151,11 @@ a {
     font-family: var(--font-principal);
     font-weight: 500;
     text-decoration: none;
-    color: #7B4AE2;
-    background: rgba(123, 74, 226, 0.1);
+    color: var(--cor-tercearia);
+    background: var(--cor-secundaria);
+}
+.apresentacao__cv:hover {
+    transition: 0.3s;
 }
 
 .apresentacao__cv:hover {
@@ -172,7 +181,7 @@ a {
 }
 
 .sobre-mim__nome {
-    color: #ffff;
+    color: var(--cor-tercearia);
     font-family: var(--font-principal);
     font-size: clamp(20px, 2.70vw, 62px);
     font-family: 'Raleway', sans-serif;
@@ -183,7 +192,7 @@ a {
     font-family: var(--font-principal);
     font-size: clamp(16px, 1.8vw, 23px);
     font-weight: 400;
-    color: #FFFFFF80;
+    color: var(--cor-tercearia);
     margin-top: 10px;
 
 }
@@ -196,25 +205,25 @@ a {
     gap: 5%;
     padding: 5%;
     width: 50vw;
-    background: rgba(123, 74, 226, 0.1);
+    background: var(--cor-secundaria);
     border-radius: 8px;
 }
 
 .card__titulo {
     font-family: var(--font-principal);
-    color: #7B4AE2;
+    color: var(--cor-destaque);
     font-size: clamp(20px, 2.70vw, 32px);
 }
 
 .card__texto {
-    color: #ffff;
+    color: var(--cor-tercearia);
     font-family: var(--font-principal);
     font-size: clamp(16px, 1.8vw, 23px);
     margin: 0px;
 }
 
 .card__descricao {
-    color: white;
+    color: var(--texto-secundario);
     font-family: var(--font-principal);
     font-size: clamp(12px, 1.8vw, 16px);
 }
@@ -226,8 +235,6 @@ a {
     align-items: start;
     justify-content: start;
     gap: 30px;
-
-
 }
 
 .sobre-mim>div {
@@ -236,7 +243,7 @@ a {
 
 .sobre-mim__subtitulo{
     font-family: var(--font-principal);
-    color: #7B4AE2;
+    color: var(--cor-destaque);
     font-size: clamp(16px, 1.8vw, 23px);
 }
 
@@ -255,8 +262,7 @@ a {
 
     font-family: var(--font-principal);
     font-size: clamp(16px, 1.8vw, 23px);
-    ;
-    color: #ffff;
+    color: var(--cor-tercearia);
     line-height: 1.5em;
     margin-bottom: 2em;
     text-align: justify;
@@ -268,7 +274,7 @@ a {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    background-color: white;
+    background-color: var(--cor-tercearia);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,8 +310,7 @@ a {
     flex-direction: column;
     gap: 30px;
     padding: 10%;
-
-    background: rgba(123, 74, 226, 0.1);
+    background: var(--cor-secundaria);
     border-radius: 16px;
     transition: 0.5s;
 }
@@ -319,7 +324,7 @@ a {
     padding: 10%;
     width: auto;
     height: auto;
-    background: rgba(123, 74, 226, 0.1);
+    background: var(--cor-secundaria);
     border-radius: 16px;
 }
 
@@ -333,7 +338,7 @@ a {
     font-family: var(--font-principal);
     font-size: clamp(16px, 1.8vw, 23px);
     font-weight: 400;
-    color: #FFFFFF80;
+    color: var(--texto-secundario);
 }
 
 .projetos-grid__item img {
@@ -346,7 +351,7 @@ a {
     font-family: var(--font-principal);
     font-weight: 700;
     font-size: clamp(16px, 1.8vw, 23px);
-    color: #7B4AE2;
+    color: var(--cor-destaque);
     border-radius: 8px;
 }
 
@@ -422,7 +427,7 @@ a {
     color: #ffff;
     font-size: clamp(16px, 1.8vw, 23px);
     padding: 2%;
-    background: #7a4ae210;
+    background: var(--cor-destaque);
 }
 
 .mensagem-contato {
@@ -439,7 +444,7 @@ a {
 }
 
 .mensagem-contato h1 {
-    color: #7B4AE2;
+    color: var(--cor-destaque);
     font-size: clamp(20px, 2.0vw, 62px);
 }
 
@@ -449,12 +454,11 @@ a {
 
 .rodape__botao {
     border-radius: 16px;
-    color: #7B4AE2;
     font-size: clamp(16px, 2.0vw, 30px);
     font-family: var(--font-principal);
     font-weight: bold;
-    background: rgba(123, 74, 226, 0.1);
-    color: #7B4AE2;
+    background: var(--cor-secundaria);
+    color: var(--cor-destaque);
     padding: 12px;
     transition: 0.3s;
 }

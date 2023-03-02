@@ -2,21 +2,21 @@ let leftToRight = {
   origin: "left",
   distance: "10%",
   duration: 2000,
-  delay: 300,
+  delay: 100,
   reset: true,
 }
 let rigthToLeft = {
   origin: "rigth",
   distance: "10%",
   duration: 1500,
-  delay: 500,
+  delay: 100,
   reset: true,
 }
 let bottomToTop = {
   origin: "bottom",
   distance: "20%",
   duration: 2000,
-  delay: 500,
+  delay: 300,
   reset: true,
   opacity:0,
   scale: 1.2

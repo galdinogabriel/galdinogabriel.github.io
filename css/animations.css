@@ -126,7 +126,7 @@
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #7b4ae2;
+    background-color: #E9E9F2;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -140,37 +140,37 @@
 /* Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: #7B4AE2 #101223;
-}
-
-/* Chrome, Edge and Safari */
-*::-webkit-scrollbar {
+    scrollbar-color: #2F3272 #E9E9F2;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
     width: 10px;
     width: 10px;
-}
-
-*::-webkit-scrollbar-track {
+  }
+  *::-webkit-scrollbar-track {
     border-radius: 5px;
-    background-color: #101223;
-}
-
-*::-webkit-scrollbar-track:hover {
+    background-color: #E9E9F2;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
     background-color: #B8C0C2;
-}
-
-*::-webkit-scrollbar-track:active {
+  }
+  
+  *::-webkit-scrollbar-track:active {
     background-color: #B8C0C2;
-}
-
-*::-webkit-scrollbar-thumb {
+  }
+  
+  *::-webkit-scrollbar-thumb {
     border-radius: 5px;
-    background-color: #7B4AE2;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-    background-color: #62A34B;
-}
-
-*::-webkit-scrollbar-thumb:active {
-    background-color: #62A34B;
-}
+    background-color: #2F3272;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #777DF2;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #777DF2;
+  }
+  
