@@ -22,6 +22,7 @@
     margin-left: 200px;
     z-index: 1;
     padding-top: 80px;
+    padding-left: 33px;
   }
 
   .menu__nav.active {
