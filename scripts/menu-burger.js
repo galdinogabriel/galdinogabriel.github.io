@@ -33,7 +33,6 @@ ScrollReveal().reveal(".sobre-mim__subtitulo", leftToRight);
 ScrollReveal().reveal(".sobre-mim__nome", leftToRight);
 ScrollReveal().reveal(".sobre-mim__card", leftToRight);
 ScrollReveal().reveal("#iportfolio", bottomToTop);
-ScrollReveal().reveal(".mensagem-contato h1", leftToRight);
 ScrollReveal().reveal(".apresentacao__info .apresentacao__msg", leftToRightSlow);
 ScrollReveal().reveal(".apresentacao__info .apresentacao__carreira", bottomToTopslow);
 ScrollReveal().reveal(".div-ilustration", bottomToTopslow);

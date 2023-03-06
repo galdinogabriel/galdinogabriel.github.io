@@ -35,6 +35,9 @@ a {
 #logo1 {
     display: none;
 }
+#logo2{
+    display: none;
+}
 
 .menu {
     margin-top: 2vh;
@@ -50,7 +53,7 @@ a {
     gap: 4%;
     background: var(--cor-destaque);
     border-radius: 16px;
-    padding: 25px 0px 20px 30px
+    padding: 20px 0px 20px 33px
 }
 
 .nav__link {
