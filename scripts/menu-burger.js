@@ -15,7 +15,7 @@ links.forEach((element) => {
   });
 });
 
-const scrollLinks = document.querySelectorAll(".nav__link");
+let scrollLinks = document.querySelectorAll(".nav__link,.rodape__voltar");
 
 scrollLinks.forEach(function (scrollLink) {
   scrollLink.addEventListener("click", function (event) {

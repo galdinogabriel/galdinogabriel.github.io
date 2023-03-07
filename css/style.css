@@ -302,6 +302,8 @@ a {
 .projetos-grid__item {
     display: flex;
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
     gap: 30px;
     padding: 10%;
     background: var(--cor-secundaria);
@@ -333,6 +335,7 @@ a {
     font-size: clamp(16px, 1.8vw, 23px);
     font-weight: 400;
     color: var(--texto-secundario);
+    text-align: justify;
 }
 
 .projetos-grid__item img {
@@ -344,15 +347,28 @@ a {
     padding: 10px;
     font-family: var(--font-principal);
     font-weight: 700;
-    font-size: clamp(16px, 1.8vw, 23px);
+    font-size: clamp(10px, 1.8vw, 16px);
     color: var(--cor-destaque);
     border-radius: 8px;
 }
 
 .projetos-grid__item:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
+.portfolio__link{
+    border-radius: 8px;
+    padding: 10px;
+    background: var(--cor-destaque);
+    font-family: var(--font-principal);
+    font-size: clamp(16px, 1.8vw, 23px);
+    font-weight: bold;
+    color: var(--cor-tercearia);
+    transition: 0.3s;
+}
+.portfolio__link:hover{
+    transform: scale(1.10);
+}
 
 /*---------------------------------- skills --------------------------------------- */
 

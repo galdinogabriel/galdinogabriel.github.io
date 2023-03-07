@@ -3,19 +3,19 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="shortcut icon" href="imgs/Vectorlogo.svg" type="image/x-icon">
+        <link rel="shortcut icon" href="imgs/Vectorlogo.svg"
+            type="image/x-icon">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/media.css">
         <script src="https://unpkg.com/scrollreveal@4/dist/scrollreveal.min.js"></script>
-
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gabriel Galdino</title>
-  
+
     </head>
     <body>
         <div id="particles-js"></div>
-        <header class="menu">
+        <header class="menu" id="inicio">
             <img src="imgs/Vectorlogo.svg" alt="logo" id="logo1">
             <div id="burger-menu">
                 <div class="line"></div>
@@ -25,20 +25,21 @@
             <nav class="menu__nav">
                 <img src="imgs/Vectorlogo.svg" alt="logo" id="logo2">
                 <a href="#inicio" class="nav__link hover-underline-animation">Início</a>
-                <a href="#isobre-mim" class="nav__link hover-underline-animation">Sobre mim</a>
+                <a href="#isobre-mim" class="nav__link
+                    hover-underline-animation">Sobre mim</a>
                 <a href="#idskiils" class="nav__link hover-underline-animation">Skills</a>
-                <a href="#iportfolio" class="nav__link hover-underline-animation">Portfólio</a>
+                <a href="#iportfolio" class="nav__link
+                    hover-underline-animation">Portfólio</a>
             </nav>
         </header>
         <main class="conteudo">
-            <section class="conteudo__apresentacao" id="inicio">
+            <section class="conteudo__apresentacao">
                 <div class="apresentacao__info">
                     <span class="apresentacao__msg">
                         Hello World! <span style="color: #ffff;">😃</span>
                     </span>
                     <h1 class="apresentacao__nome">Sou Gabriel Galdino</h1>
-                    <h2 class="apresentacao__carreira"
-                        style="animation-delay: 0.3s;">
+                    <h2 class="apresentacao__carreira">
                         &lt;&gt;
                         Desenvolvedor front-end &lt;/&gt;
                     </h2>
@@ -54,8 +55,7 @@
                             <img
                                 src="imgs/social-medias-icons/github.svg"
                                 alt="Link Github"
-                                class="apresentacao__media-social-icon"
-                                style="animation-delay: 0.3s;">
+                                class="apresentacao__media-social-icon">
                         </a>
                     </div>
                 </div>
@@ -90,8 +90,10 @@
                         </p>
                         <p class="conteudo__paragrafo">
                             Estou animado para ingressar em uma equipe dedicada
-                            a criar soluções digitais e estou <strong>comprometido</strong> em
-                            fazer uma <strong>contribuição</strong> significativa para a equipe.
+                            a criar soluções digitais e estou <strong>comprometido</strong>
+                            em
+                            fazer uma <strong>contribuição</strong>
+                            significativa para a equipe.
                             Gostaria de ter a oportunidade de mostrar meu
                             potencial e aprender com profissionais experientes.
                             😁
@@ -211,28 +213,32 @@
                     </div>
                 </section>
                 <section class="portfolio" id="iportfolio">
+
                     <h1 class="sobre-mim__nome">Trabalhos e projetos 🔗</h1>
+
                     <div class="projetos-grid">
-                        <a href=""
-                            target="_blank"> <div class="projetos-grid__item">
-                                <h2 class="projetos-grid__item__title">Landing
-                                    Page</h2>
-                                <p class="projetos-grid__item__descricao">Aplicação
-                                    desenvolvida inteiramente usando somente
-                                    HTML,
-                                    CSS e Javascript</p>
+
+                      <div class="projetos-grid__item">
+
+                                <h2 class="projetos-grid__item__title">Portfólio Pessoal</h2>
+                                <p class="projetos-grid__item__descricao">
+                                   Meu portfólio onde tive a oportunidade de aplicar conceitos importantes para criação de layouts, como: 
+                                    Flexbox, Grid, Tags semânticas e Media Query.</p>
                                 <div>
                                     <span class="projetos-grid__item__tags">html</span>
                                     <span class="projetos-grid__item__tags">css</span>
                                     <span class="projetos-grid__item__tags">JavaScript</span>
+                                    <span class="projetos-grid__item__tags">Figma</span>
                                 </div>
 
                                 <div>
-                                    <img src="imgs/projetos-thumbs/image 2.jpg"
+                                    <img src="imgs/projetos-thumbs/website mockup.jpg"
                                         alt="Imagem do projeto">
                                 </div>
+                                
+                                      <a href="https://github.com/galdinogabriel/galdinogabriel.github.io" class="portfolio__link" target="_blank">Github</a>
 
-                            </div></a>
+                            </div>
 
                         <div class="projetos-grid__item--breve">
                             <h2 class="projetos-grid__item__title">Em breve</h2>
@@ -264,7 +270,8 @@
                     <div class="rodape__links">
                         <a href="https://www.linkedin.com/in/gabriel-galdino1/"
                             target="_blank" class="rodape__botao">Linkedin</a>
-                        <a href="#" class="rodape__voltar hover-underline-animation">Voltar para o topo</a>
+                        <a href="#inicio" class="rodape__voltar
+                            hover-underline-animation">Voltar para o topo</a>
                     </div>
                 </div>
                 <div class="criador">
