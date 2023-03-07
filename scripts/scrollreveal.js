@@ -36,11 +36,22 @@ let leftToRight = {
   ScrollReveal().reveal(".apresentacao__info .apresentacao__msg", leftToRightSlow);
   ScrollReveal().reveal(".apresentacao__info .apresentacao__carreira", bottomToTopslow);
   ScrollReveal().reveal(".div-ilustration", bottomToTopslow);
+  ScrollReveal().reveal(".mensagem-contato h1", leftToRightSlow);
   
   
-  const itemsGrid = document.querySelectorAll('.skills-grid__item');
+  const itemsGrid = document.querySelectorAll('.skills-grid .skills-grid__item');
   
   itemsGrid.forEach(function(myElement) {
+    let bottomToTopGrid = bottomToTop;
+    bottomToTopGrid.delay = bottomToTopGrid.delay + 50
+    bottomToTopGrid.distance = '50px'
+    ScrollReveal().reveal(myElement, bottomToTopGrid);
+  });
+
+
+  const itemsGridUtilizei = document.querySelectorAll('.skills-utilizei-grid .skills-grid__item');
+  
+  itemsGridUtilizei.forEach(function(myElement) {
     let bottomToTopGrid = bottomToTop;
     bottomToTopGrid.delay = bottomToTopGrid.delay + 50
     bottomToTopGrid.distance = '50px'
