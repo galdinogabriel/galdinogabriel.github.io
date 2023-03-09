@@ -32,11 +32,11 @@ let leftToRight = {
   ScrollReveal().reveal(".sobre-mim__subtitulo", leftToRight);
   ScrollReveal().reveal(".sobre-mim__nome", leftToRight);
   ScrollReveal().reveal(".sobre-mim__card", leftToRight);
-  ScrollReveal().reveal("#iportfolio", bottomToTop);
   ScrollReveal().reveal(".apresentacao__info .apresentacao__msg", leftToRightSlow);
   ScrollReveal().reveal(".apresentacao__info .apresentacao__carreira", bottomToTopslow);
   ScrollReveal().reveal(".div-ilustration", bottomToTopslow);
   ScrollReveal().reveal(".mensagem-contato h1", leftToRightSlow);
+  ScrollReveal().reveal(".projetos-grid__item--breve, .projetos-grid__item, .sobre-mim__nome", leftToRight);
   
   
   const itemsGrid = document.querySelectorAll('.skills-grid .skills-grid__item');

@@ -1,19 +1,12 @@
-const nav = document.querySelector(".menu__nav");
-const burger = document.getElementById("burger-menu");
+const elementsToToggle = document.querySelectorAll(".nav__link, .burger-menu");
+const nav = document.querySelector(".menu__nav")
 
-burger.addEventListener("click", () => {
-  burger.classList.toggle("active");
-  nav.classList.toggle("active");
-});
-
-const links = document.querySelectorAll(".nav__link");
-
-links.forEach((element) => {
+elementsToToggle.forEach((element) => {
   element.addEventListener("click", () => {
-    burger.classList.toggle("active");
     nav.classList.toggle("active");
   });
 });
+
 
 let scrollLinks = document.querySelectorAll(".nav__link,.rodape__voltar");
 
