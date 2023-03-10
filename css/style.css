@@ -292,7 +292,7 @@ a {
 
 .projetos-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 3%;
 }
@@ -300,13 +300,18 @@ a {
 .projetos-grid__item {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-between;
     align-items: start;
     gap: 30px;
     padding: 10%;
     background: var(--cor-secundaria);
     border-radius: 16px;
     transition: 0.5s;
+}
+
+.item__links{
+    display: flex;
+    gap: 20px;
 }
 
 .projetos-grid__item--breve {
@@ -367,7 +372,7 @@ a {
     padding: 10px;
     background: var(--cor-destaque);
     font-family: var(--font-principal);
-    font-size: clamp(16px, 1.8vw, 23px);
+    font-size: clamp(13px, 1.8vw, 20px);
     font-weight: bold;
     color: var(--cor-tercearia);
     transition: 0.3s;
