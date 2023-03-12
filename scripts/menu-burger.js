@@ -1,4 +1,4 @@
-const elementsToToggle = document.querySelectorAll(".nav__link, .burger-menu");
+const elementsToToggle = document.querySelectorAll(".nav__link, .menu__burger");
 const nav = document.querySelector(".menu__nav")
 
 elementsToToggle.forEach((element) => {
@@ -14,7 +14,7 @@ scrollLinks.forEach(function (scrollLink) {
   scrollLink.addEventListener("click", function (event) {
     event.preventDefault();
     const targetId = this.getAttribute("href").substring(1);
-    const scrollTarget = document.getElementById(targetId);
+    const scrollTarget = document.querySelector("."+targetId);
     scrollTarget.scrollIntoView({ behavior: "smooth" });
   });
 });

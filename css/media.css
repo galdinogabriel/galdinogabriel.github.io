@@ -31,14 +31,14 @@
 
  
 
-  .logo {
+  .menu__logo {
     display: block;
     position: absolute;
     left: 35px;
     top: 27px;
   }
 
-  .burger-menu {
+  .menu__burger {
     position: fixed;
     top: 20px;
     right: 20px;
@@ -50,7 +50,7 @@
     box-shadow: 2px 2px 5px #17141d;
   }
 
-  .burger-menu:hover {
+  .menu__burger:hover {
     background-color: #7b4ae2;
   }
 
@@ -65,45 +65,21 @@
     margin-bottom: 0;
   }
 
-  .conteudo {
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  .conteudo__apresentacao {
-    flex-direction: column-reverse;
-    padding-top: 12vh;
-    justify-content: center;
-    align-items: center;
-    gap: 0px;
-  }
-
   .apresentacao__media-social-icon {
     width: 70%;
   }
-
-  .apresentacao__info {
-    align-items: center;
-  }
-
-  .apresentacao__info {
-    gap: 16px;
-  }
-
+  
   .apresentacao__social-medias {
     gap: 0px;
   }
 
   .sobre-mim {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     gap: 10px;
     padding-left: 0%;
     padding-right: 0%;
   }
 
-  .foto-perfil {
+  .sobre-mim__foto-perfil {
     width: 200px;
     height: 200px;
 
@@ -114,23 +90,22 @@
     gap: 30px;
     padding: 10%;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+   
   }
 
   .card__informacoes {
     text-align: center;
     align-items: center;
-    justify-content: center;
   }
 
   .card__icon {
     width: 60%;
-    text-align: center;
+    
   }
 
   .skills {
-    padding-top: 30%;
+    margin-top: 30%;
   }
 
   .skills-grid {
@@ -138,24 +113,9 @@
     width: 80vw;
   }
 
-  .skills-utilizei-grid {
-    grid-template-columns: 1fr 1fr;
-    width: 80vw;
-    row-gap: 5vh;
-  }
-
-  .skills-grid__item {
-    flex-direction: column;
-    justify-content: start;
-  }
-
-  .skills-grid__item>img {
-    width: 20%;
-  }
-
-
+  
   .portfolio {
-    padding-top: 30%;
+    margin-top: 30%;
   }
 
   .projetos-grid {
@@ -178,16 +138,9 @@
 
 /* for-tablet */
 @media (max-width:1200px) and (min-width:768px) {
-  #logo1 {
-    display: none;
-  }
 
   .menu__nav {
     gap: 6%;
-  }
-
-  .div-ilustration {
-    text-align: center;
   }
 }
 
@@ -195,8 +148,8 @@
 
   .conteudo__apresentacao {
     height: unset;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    margin-bottom: 100px;
+    margin-top: 100px;
   }
 
   .sobre-mim {
@@ -205,7 +158,7 @@
     padding-bottom: 50px;
   }
 
-  .foto-perfil {
+  .sobre-mim__foto-perfil {
     width: 200px;
     height: 200px;
   }
