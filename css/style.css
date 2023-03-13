@@ -371,6 +371,10 @@ a {
     grid-template-columns: 1fr 1fr;
 }
 
+.skills-grid--estudando {
+    grid-template-columns: 1fr 1fr;
+}
+
 .skills-grid__item {
     display: flex;
     flex-direction: column;
