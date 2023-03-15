@@ -29,8 +29,6 @@
     transform: translateX(0);
   }
 
- 
-
   .menu__logo {
     display: block;
     position: absolute;
@@ -42,16 +40,11 @@
     position: fixed;
     top: 20px;
     right: 20px;
-    background: #15152b;
+    background: #c12f62;
     padding: 0.5rem;
     z-index: 1000;
     cursor: pointer;
-    transition: 0.3s linear;
     box-shadow: 2px 2px 5px #17141d;
-  }
-
-  .menu__burger:hover {
-    background-color: #7b4ae2;
   }
 
   .line {
@@ -68,21 +61,19 @@
   .apresentacao__media-social-icon {
     width: 70%;
   }
-  
+
   .apresentacao__social-medias {
     gap: 0px;
   }
 
   .sobre-mim {
-    gap: 10px;
+    gap: 30px;
     padding-left: 0%;
     padding-right: 0%;
   }
 
-  .sobre-mim__foto-perfil {
-    width: 200px;
-    height: 200px;
-
+  .foto-perfil__foto {
+    width: 60%;
   }
 
   .sobre-mim__card {
@@ -91,7 +82,7 @@
     padding: 10%;
     flex-direction: column;
     text-align: center;
-   
+
   }
 
   .card__informacoes {
@@ -101,7 +92,7 @@
 
   .card__icon {
     width: 60%;
-    
+
   }
 
   .skills {
@@ -112,7 +103,7 @@
     width: 80vw;
   }
 
-  
+
   .portfolio {
     margin-top: 30%;
   }
@@ -141,6 +132,10 @@
   .menu__nav {
     gap: 6%;
   }
+
+  .foto-perfil__foto {
+    width: 80%;
+  }
 }
 
 @media (max-width: 1200px) and (orientation: landscape) {
@@ -157,9 +152,7 @@
     padding-bottom: 50px;
   }
 
-  .sobre-mim__foto-perfil {
-    width: 200px;
-    height: 200px;
+  .foto-perfil__foto {
+    width: 60%;
   }
-
 }

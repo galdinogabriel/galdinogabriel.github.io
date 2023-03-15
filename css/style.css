@@ -9,10 +9,10 @@ html {
 
     --font-principal: 'Raleway', sans-serif;
 
-    --cor-destaque: #777DF2;
-    --cor-background: #0D0D0D;
-    --cor-secundaria: #2F3272;
-    --cor-tercearia: #E9E9F2;
+    --cor-destaque: #c12f62;
+    --cor-background: #090e16;
+    --cor-secundaria: #101926;
+    --cor-tercearia: #ffff;
     --texto-secundario: #FFFFFF80;
 }
 
@@ -87,6 +87,10 @@ a {
     font-weight: 800;
 }
 
+.titulo-cor-destaque {
+    color: var(--cor-destaque);
+}
+
 .conteudo__subtitulo {
     border-radius: 16px;
     color: var(--texto-secundario);
@@ -100,15 +104,13 @@ a {
     line-height: 1.5em;
     margin-bottom: 2em;
     text-align: justify;
-  
+
 }
 
-.conteudo__paragrafo--center{
+.conteudo__paragrafo--center {
     text-align: center;
     font-weight: bold;
 }
-
-
 
 .conteudo__apresentacao {
     display: flex;
@@ -126,7 +128,7 @@ a {
     font-weight: 800;
 }
 
-.apresentacao__nome--typing-animation{
+.apresentacao__nome--typing-animation {
     overflow: hidden;
     border-right: .15em solid;
     white-space: nowrap;
@@ -224,21 +226,9 @@ a {
     gap: 45px;
 }
 
-.sobre-mim__foto-perfil {
-    width: 350px;
-    height: 350px;
-    border-radius: 30% 70% 70% 30% / 30% 45% 55% 70%;
-    background-color: var(--cor-tercearia);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
-    flex-shrink: 0
-}
-
 .foto-perfil__foto {
-    width: 70%;
-    margin-top: 20px;
+    width: 40%;
+    border-radius: 50%;
 }
 
 /*------------------ portifolio ------------------------------*/
@@ -311,17 +301,17 @@ a {
         41.8px 41.8px 33.4px rgba(0, 0, 0, 0.072),
         100px 100px 80px rgba(0, 0, 0, 0.07);
 }
-.projetos-grid__tag-container{
+
+.projetos-grid__tag-container {
     display: flex;
     flex-direction: row;
     gap: 20px;
 }
+
 .projetos-grid__item__tags {
     font-weight: 700;
-    font-size: clamp(10px, 1.8vw, 16px);
+    font-size: clamp(10px, 1.5vw, 16px);
     color: var(--cor-destaque);
-    border-radius: 8px;
-    display: inline-block;
 }
 
 .projetos-grid__item:hover {
@@ -355,7 +345,6 @@ a {
 
 .skills-grid img {
     width: 30%;
-
 }
 
 .skills-grid {
@@ -422,8 +411,8 @@ a {
     border-radius: 16px;
     font-size: clamp(16px, 2.0vw, 30px);
     font-weight: bold;
-    background: var(--cor-secundaria);
-    color: var(--cor-destaque);
+    background: var(--cor-destaque);
+    color: var(--cor-tercearia);
     padding: 12px;
     transition: 0.3s;
 }
