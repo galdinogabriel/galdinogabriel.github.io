@@ -1,0 +1,47 @@
+/* apresentacao css*/
+
+.conteudo__apresentacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 91vh;
+  gap: 30px;
+}
+
+.apresentacao__nome {
+  color: var(--cor-tercearia);
+  font-size: clamp(20px, 2.70vw, 62px);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+.apresentacao__nome--typing-animation {
+  overflow: hidden;
+  border-right: .15em solid;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation:
+    typing 2.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+.apresentacao__carreira {
+  color: var(--cor-tercearia);
+  font-family: monospace;
+  font-size: clamp(12px, 2vw, 23px);
+}
+
+.apresentacao__social-medias {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.apresentacao__media-social-icon {
+  transition-duration: 0.2s;
+}
+
+.apresentacao__media-social-icon:hover {
+  transform: scale(1.15);
+}

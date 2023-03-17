@@ -4,7 +4,7 @@
   "editor.lineHeight": 25,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.activityBar.visible": true,
   "liveServer.settings.donotShowInfoMsg": true,

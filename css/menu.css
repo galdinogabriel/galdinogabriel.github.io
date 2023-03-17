@@ -1,0 +1,28 @@
+/* menu css */
+
+.menu__logo {
+  display: none;
+}
+
+.menu {
+  margin-top: 2vh;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.menu__nav {
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  padding: 20px 0px 20px 0px
+}
+
+.nav__link {
+  text-decoration: none;
+  color: var(--cor-tercearia);
+  font-size: clamp(16px, 2vw, 23px);
+  font-weight: 400;
+}

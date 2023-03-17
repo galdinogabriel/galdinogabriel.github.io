@@ -1,0 +1,41 @@
+/*---------------------------------- skills --------------------------------------- */
+
+.skills {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6vh;
+}
+
+.skills-grid img {
+  width: 30%;
+}
+
+.skills-grid {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 40vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10vh;
+}
+
+.skills-grid--soft-skills {
+  grid-template-columns: 1fr 1fr;
+}
+
+.skills-grid--estudando {
+  grid-template-columns: 1fr 1fr;
+   width: 30vw;
+
+}
+
+.skills-grid__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}

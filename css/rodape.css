@@ -1,0 +1,57 @@
+/*------------------------- rodape ----------------------------*/
+
+
+.criador {
+  text-align: center;
+  color: #ffff;
+  font-size: clamp(16px, 1.8vw, 23px);
+  padding: 2%;
+  background: var(--cor-destaque);
+}
+
+.mensagem-contato {
+  margin: 10% 0%;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  text-align: center;
+  color: #ffff;
+}
+
+.mensagem-contato h1 {
+  color: var(--cor-destaque);
+  font-size: clamp(20px, 2.0vw, 62px);
+}
+
+.mensagem-contato h2 {
+  font-size: clamp(16px, 2.0vw, 23px);
+}
+
+.rodape__botao {
+  border-radius: 16px;
+  font-size: clamp(16px, 2.0vw, 30px);
+  font-weight: bold;
+  background: var(--cor-destaque);
+  color: var(--cor-tercearia);
+  padding: 12px;
+  transition: 0.3s;
+}
+
+.rodape__botao:hover {
+  transform: scale(1.1);
+}
+
+.rodape__voltar {
+  color: #ffff;
+}
+
+.rodape__links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+}
+
+.rodape__voltar {
+  font-size: clamp(16px, 2.0vw, 23px);
+}

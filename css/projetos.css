@@ -1,0 +1,100 @@
+/* projetos css */
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6vh;
+    margin-top: 10%;
+}
+
+.projetos-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3%;
+}
+
+.projetos-grid__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+    padding: 10%;
+    background: var(--cor-secundaria);
+    border-radius: 16px;
+    transition: 0.5s;
+}
+
+.projetos-grid__link-container {
+    display: flex;
+    gap: 20px;
+}
+
+.projetos-grid__item-breve {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10%;
+    width: auto;
+    height: auto;
+    background: var(--cor-secundaria);
+    border-radius: 16px;
+}
+
+.projetos-grid__item__title {
+    font-size: clamp(16px, 2vw, 23px);
+    color: #ffff;
+}
+
+.projetos-grid__item__descricao {
+    font-size: clamp(16px, 1.8vw, 23px);
+    font-weight: 400;
+    color: var(--texto-secundario);
+    text-align: justify;
+}
+
+.projetos-grid__item img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow:
+        2.8px 2.8px 2.2px rgba(0, 0, 0, 0.027),
+        6.7px 6.7px 5.3px rgba(0, 0, 0, 0.043),
+        12.5px 12.5px 10px rgba(0, 0, 0, 0.056),
+        22.3px 22.3px 17.9px rgba(0, 0, 0, 0.066),
+        41.8px 41.8px 33.4px rgba(0, 0, 0, 0.072),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.projetos-grid__tag-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.projetos-grid__item__tags {
+    font-weight: 700;
+    font-size: clamp(10px, 1.5vw, 16px);
+    color: var(--cor-destaque);
+}
+
+.projetos-grid__item:hover {
+    transform: scale(1.02);
+}
+
+.projetos-grid__link {
+    border-radius: 8px;
+    padding: 10px;
+    background: var(--cor-destaque);
+    font-size: clamp(13px, 1.8vw, 20px);
+    font-weight: bold;
+    color: var(--cor-tercearia);
+    transition: 0.3s;
+}
+
+.projetos-grid__link:hover {
+    transform: scale(1.10);
+}
