@@ -1,25 +1,20 @@
 let leftToRight = {
   origin: "left",
   distance: "10%",
-  duration: 2000,
-  delay: 100,
+  duration: 1000,
   reset: true,
 };
 let rigthToLeft = {
   origin: "rigth",
   distance: "10%",
-  duration: 2000,
-  delay: 100,
+  duration: 1000,
   reset: true,
 };
 let bottomToTop = {
   origin: "bottom",
   distance: "20%",
-  duration: 2000,
-  delay: 100,
+  duration: 1000,
   reset: true,
-  opacity: 0,
-  scale: 1.2,
 };
 
 ScrollReveal().reveal(".conteudo__titulo", leftToRight);
