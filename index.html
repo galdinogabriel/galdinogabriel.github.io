@@ -14,8 +14,8 @@
         <link rel="stylesheet" href="css/rodape.css">
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/media.css">
-
-        <script src="https://unpkg.com/scrollreveal@4/dist/scrollreveal.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="scripts/particles.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gabriel Galdino</title>
     </head>
@@ -39,7 +39,7 @@
         <main class="conteudo">
             <section class="conteudo__apresentacao">
 
-                <h2 class="conteudo__subtitulo">
+                <h2 class="conteudo__subtitulo" data-aos="fade-left">
                     Hello World!
                     <span style="color: #ffff;">😃</span>
                 </h2>
@@ -48,19 +48,19 @@
                         apresentacao__nome--typing-animation">Sou Gabriel
                         Galdino</h1>
                 </div>
-                <h3 class="apresentacao__carreira">
+                <h3 class="apresentacao__carreira" data-aos="fade-right">
                     &lt;&gt;
                     Desenvolvedor front-end &lt;/&gt;
                 </h3>
                 <div class="apresentacao__social-medias">
                     <a href="https://www.linkedin.com/in/gabriel-galdino1/"
-                        target="_blank">
+                        target="_blank" data-aos="zoom-in">
                         <img src="imgs/social-medias-icons/linkedin.svg"
                             alt="Link Linkedin"
                             class="apresentacao__media-social-icon">
                     </a>
                     <a href="https://github.com/galdinogabriel"
-                        target="_blank">
+                        target="_blank" data-aos="zoom-in">
                         <img src="imgs/social-medias-icons/github.svg"
                             alt="Link Github"
                             class="apresentacao__media-social-icon">
@@ -72,14 +72,16 @@
 
                 <img src="imgs/perfil/fotoperfil.png"
                     alt="Foto de perfil"
-                    class="foto-perfil__foto">
+                    class="foto-perfil__foto" data-aos="fade-up">
 
                 <h2 class="conteudo__titulo">Sobre mim</h2>
                 <div class="sobre-mim__texto">
-                    <h1 class="conteudo__titulo">Gabriel <span
+                    <h1 class="conteudo__titulo" data-aos="fade-right">Gabriel
+                        <span
                             class="titulo-cor-destaque">Galdino<span></h1>
                             <div>
-                                <p class="conteudo__paragrafo">
+                                <p class="conteudo__paragrafo"
+                                    data-aos="fade-right">
                                     Olá! meu nome Gabriel Henrique Galdino
                                     Matos😀, sou
                                     um
@@ -93,7 +95,8 @@
                                     visuais e interativas para sites e
                                     aplicações web!
                                 </p>
-                                <p class="conteudo__paragrafo">
+                                <p class="conteudo__paragrafo"
+                                    data-aos="fade-right">
                                     Considero como meu maior
                                     <strong>diferencial</strong>
                                     a minha capacidade de sempre
@@ -103,7 +106,8 @@
                                     últimas
                                     tendências e tecnologias front-end 🧐
                                 </p>
-                                <p class="conteudo__paragrafo">
+                                <p class="conteudo__paragrafo"
+                                    data-aos="fade-right">
                                     Estou animado para ingressar em uma equipe
                                     dedicada
                                     a criar soluções digitais e estou
@@ -119,7 +123,7 @@
                                     😁
                                 </p>
                             </div>
-                            <div class="sobre-mim__card">
+                            <div class="sobre-mim__card" data-aos="fade-right">
                                 <div>
                                     <img
                                         src="imgs/icones-gerais/academicvector.svg"
@@ -140,7 +144,7 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="sobre-mim__card">
+                            <div class="sobre-mim__card" data-aos="fade-right">
                                 <div>
                                     <img src="imgs/icones-gerais/target.svg"
                                         alt="ilustração de alvo"
@@ -160,57 +164,67 @@
                             </div>
                         </section>
                         <section class="skills">
-                            <h1 class="conteudo__titulo">Habilidades</h1>
+                            <h1 class="conteudo__titulo" data-aos="fade-right">Habilidades</h1>
                             <h2 class="conteudo__subtitulo slide-in-fwd-center">
                                 principais techs
                             </h2>
-                            <div class="skills-grid">
-                                <div class="skills-grid__item">
+                            <div class="skills-grid"">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up">
                                     <img src="imgs/icons_tech/html.svg"
                                         alt="html 5">
                                     <p class="conteudo__paragrafo">HTML</p>
                                 </div>
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up" data-aos-delay="300">
                                     <img src="imgs/icons_tech/css.svg"
                                         alt="CSS">
                                     <p class="conteudo__paragrafo">CSS</p>
                                 </div>
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up" data-aos-delay="400">
                                     <img src="imgs/icons_tech/javascript.svg"
                                         alt="Javascript">
                                     <p class="conteudo__paragrafo">Java Script</p>
                                 </div>
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up" data-aos-delay="500">
                                     <img src="imgs/icons_tech/react.svg"
                                         alt="React">
                                     <p class="conteudo__paragrafo">React</p>
                                 </div>
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up" data-aos-delay="600">
                                     <img src="imgs/icons_tech/git.svg"
                                         alt="Git">
                                     <p class="conteudo__paragrafo">Git</p>
                                 </div>
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up" data-aos-delay="700">
                                     <img src="imgs/icons_tech/github.svg"
                                         alt="Github">
                                     <p class="conteudo__paragrafo">Github</p>
                                 </div>
                             </div>
-                            <h2 class="conteudo__subtitulo slide-in-fwd-center">
+                            <h2 class="conteudo__subtitulo slide-in-fwd-center"
+                                data-aos="fade-right">
                                 Ferramentas
                             </h2>
                             <div class="skills-grid">
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up">
                                     <img src="imgs/icons_tech/figma.svg"
                                         alt="Figma">
                                     <p class="conteudo__paragrafo">Figma</p>
                                 </div>
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up" data-aos-delay="300">
                                     <img src="imgs/icons_tech/photoshop.svg"
                                         alt="Photoshop">
                                     <p class="conteudo__paragrafo">photoshop</p>
                                 </div>
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up" data-aos-delay="400">
                                     <img src="imgs/icons_tech/vscode.svg"
                                         alt="Visual
                                         Studio Code">
@@ -218,16 +232,19 @@
                                 </div>
 
                             </div>
-                            <h2 class="conteudo__subtitulo slide-in-fwd-center">
+                            <h2 class="conteudo__subtitulo slide-in-fwd-center"
+                                data-aos="fade-right">
                                 Estudando
                             </h2>
                             <div class="skills-grid skills-grid--estudando">
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up">
                                     <img src="imgs/icons_tech/node.svg"
                                         alt="Node JS">
                                     <p class="conteudo__paragrafo">Node JS</p>
                                 </div>
-                                <div class="skills-grid__item">
+                                <div class="skills-grid__item"
+                                    data-aos="fade-up" data-aos-delay="300">
                                     <img src="imgs/icons_tech/typescript.svg"
                                         alt="typescript">
                                     <p class="conteudo__paragrafo">typescript</p>
@@ -239,21 +256,27 @@
                             </h2>
                             <div class="skills-grid skills-grid--soft-skills">
                                 <p class="conteudo__paragrafo
-                                    conteudo__paragrafo--center">Trabalho em
+                                    conteudo__paragrafo--center"
+                                    data-aos="zoom-in">Trabalho em
                                     equipe</p>
                                 <p class="conteudo__paragrafo
-                                    conteudo__paragrafo--center">Resolução de
+                                    conteudo__paragrafo--center"
+                                    data-aos="zoom-in">Resolução de
                                     problemas</p>
                                 <p class="conteudo__paragrafo
-                                    conteudo__paragrafo--center">Proatividade</p>
+                                    conteudo__paragrafo--center"
+                                    data-aos="zoom-in">Proatividade</p>
                                 <p class="conteudo__paragrafo
-                                    conteudo__paragrafo--center">Comunicação</p>
+                                    conteudo__paragrafo--center"
+                                    data-aos="zoom-in">Comunicação</p>
                             </div>
                         </section>
                         <section class="portfolio">
-                            <h1 class="conteudo__titulo">Trabalhos e projetos 🔗</h1>
+                            <h1 class="conteudo__titulo" data-aos="fade-right">Trabalhos
+                                e projetos 🔗</h1>
                             <div class="projetos-grid-container">
-                                <div class="projetos-grid__item">
+                                <div class="projetos-grid__item"
+                                    data-aos="fade-up">
                                     <div>
                                         <img
                                             src="imgs/projetos-thumbs/websitemockup.png"
@@ -290,7 +313,8 @@
                                         class="projetos-grid__link"
                                         target="_blank">Repositório</a>
                                 </div>
-                                <div class="projetos-grid__item">
+                                <div class="projetos-grid__item"
+                                    data-aos="fade-up">
                                     <div>
                                         <img
                                             src="imgs/projetos-thumbs/thelast.jpg"
@@ -334,7 +358,8 @@
                                             target="_blank">Vizualizar</a>
                                     </div>
                                 </div>
-                                <div class="projetos-grid__item-breve">
+                                <div class="projetos-grid__item-breve"
+                                    data-aos="fade-up">
                                     <h2 class="projetos-grid__item__title">Em
                                         breve</h2>
                                     <div class="projetos-grid__tag-container">
@@ -346,7 +371,8 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="projetos-grid__item-breve">
+                                <div class="projetos-grid__item-breve"
+                                    data-aos="fade-up">
                                     <h2 class="projetos-grid__item__title">Em
                                         breve</h2>
                                     <div class="projetos-grid__tag-container">
@@ -360,7 +386,8 @@
                     <footer class="rodape">
                         <div class="mensagem-contato">
                             <h2>Tenho alguma oportunidade na sua empresa?</h2>
-                            <h1>Entre em contato, vamos conversar!</h1>
+                            <h1 data-aos="zoom-in">Entre em contato, vamos
+                                conversar!</h1>
                             <div class="rodape__links">
                                 <a
                                     href="https://www.linkedin.com/in/gabriel-galdino1/"
@@ -375,9 +402,14 @@
                         </div>
                     </footer>
                     <div id="particles-js"></div>
+                    <script src="scripts/particles-params.js"></script>
+                    <script src="scripts/menu-burger.js"></script>
+                    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                    <script>
+                            AOS.init({
+                                duration: 1000,
+                                delay: 200,
+                            });
+                    </script>
                 </body>
-                <script src="scripts/particles.min.js"></script>
-                <script src="scripts/particles-params.js"></script>
-                <script src="scripts/menu-burger.js"></script>
-                <script src="scripts/scrollreveal.js"></script>
             </html>
