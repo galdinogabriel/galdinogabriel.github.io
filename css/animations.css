@@ -47,6 +47,65 @@
     transform-origin: bottom left;
 }
 
+.slide-right {
+    -webkit-animation: slide-right 2s cubic-bezier(.25, .46, .45, .94) both;
+    animation: slide-right 2s cubic-bezier(.25, .46, .45, .94) both
+}
+
+.slide-left {
+    -webkit-animation: slide-left 2s cubic-bezier(.25, .46, .45, .94) both;
+    animation: slide-left 2s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@-webkit-keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(-200px);
+        transform: translateX(-200px)
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes slide-right {
+    0% {
+        -webkit-transform: translateX(-200px);
+        transform: translateX(-200px)
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@-webkit-keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(200px);
+        transform: translateX(200px)
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes slide-left {
+    0% {
+        -webkit-transform: translateX(200px);
+        transform: translateX(200px)
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+
 /* configs da barra de scroll do navegador */
 /* Firefox */
 * {
