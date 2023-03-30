@@ -2,10 +2,6 @@
 
 @media (max-width: 768px) {
 
-  .menu {
-    margin-top: 0px;
-  }
-
   .menu__nav {
     border-radius: unset;
     height: 100vh;
@@ -94,7 +90,6 @@
 
   .card__icon {
     width: 60%;
-
   }
 
   .skills {
