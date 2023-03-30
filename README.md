@@ -1,25 +1,21 @@
-Meu Portfólio Pessoal
-Bem-vindo ao meu portfólio pessoal! Este é um repositório onde compartilho alguns dos meus projetos pessoais em desenvolvimento, feitos com HTML, CSS e JavaScript.
-
-Apresentação
-Este portfólio é uma demonstração das minhas habilidades em design e desenvolvimento web. Os projetos aqui apresentados foram criados com o objetivo de aprimorar minhas habilidades e mostrar meu trabalho para outras pessoas.
-
-Projetos
-[Projeto 1: NOME DO PROJETO](LINK PARA O PROJETO): [DESCRIÇÃO DO PROJETO]
-[Projeto 2: NOME DO PROJETO](LINK PARA O PROJETO): [DESCRIÇÃO DO PROJETO]
-[Projeto 3: NOME DO PROJETO](LINK PARA O PROJETO): [DESCRIÇÃO DO PROJETO]
-Tecnologias Utilizadas
-Os projetos foram desenvolvidos utilizando as seguintes tecnologias:
-
-HTML
-CSS
-JavaScript
-Como Contribuir
+<h1>Meu Portfólio Pessoal 🔗</h1>
+Este é um repositório criado do zero por mim onde compartilho alguns dos meus projetos pessoais que realizei 
+<h2>Tecnologias usadas 🛠</h2>
+<ul>
+<li>HTML5 ✔</li>
+<li>CSS3 ✔</li>
+<li>JavaScript ✔</li>
+</ul>
+<h2>Sobre ⬇</h2>
+<p>Este portfólio é uma demonstração das minhas habilidades em design e desenvolvimento web.</p> 
+<p>Os projetos aqui apresentados foram criados com o objetivo de aprimorar minhas habilidades e mostrar meu trabalho para outras pessoas.</p>
+<h2>Como Contribuir ❤</h2>
 Contribuições são sempre bem-vindas! Se você quiser fazer uma contribuição, sinta-se à vontade para abrir uma issue ou um pull request neste repositório.
 
-Contato
-Se você tiver alguma dúvida ou quiser entrar em contato comigo, sinta-se à vontade para enviar um e-mail para [SEU ENDEREÇO DE E-MAIL] ou me seguir no [NOME DA REDE SOCIAL], onde compartilho mais sobre meu trabalho e projetos pessoais.
-
-Licença
-Este projeto é licenciado sob a licença MIT. Consulte o arquivo [LICENSE](LINK PARA O ARQUIVO LICENSE) para obter mais informações.
+<h2>Contato ✉</h2>
+<p>Se você tiver alguma dúvida ou quiser entrar em contato comigo, sinta-se à vontade</p>
+<div> 
+     <a href="https://www.linkedin.com/in/gabriel-galdino1/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:matosgabriel017@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
  
