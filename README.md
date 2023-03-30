@@ -7,6 +7,7 @@
 <li>HTML5 ✔</li>
 <li>CSS3 ✔</li>
 <li>JavaScript ✔</li>
+<li>Figma ✔</li>
 </ul>
 <h2>Sobre ⬇</h2>
 <p>Este portfólio é uma demonstração das minhas habilidades em design e desenvolvimento web, onde foram aplicados conceitos importantes de cada tecnologia.</p> 
