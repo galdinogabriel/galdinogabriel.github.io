@@ -18,7 +18,7 @@
     color: white;
     position: fixed;
     right: 0;
-    top:0;
+    top: 0;
     transform: translateX(100%);
     transition: transform 0.3s linear;
     margin-left: 200px;
@@ -70,12 +70,12 @@
 
   .sobre-mim {
     gap: 30px;
-    padding-left: 0%;
-    padding-right: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .foto-perfil__foto {
-    width: 60%;
+    width: 50%;
   }
 
   .sobre-mim__card {
@@ -107,23 +107,25 @@
 
 
   .portfolio {
-    margin-top: 30%;
+    margin-top: 15%;
   }
 
   .projetos-grid-container {
-
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 1fr);
 
   }
 
-  .mensagem-contato {
-    padding: 34% 10%;
+  .criador {
+    padding: 5%;
   }
 
-  .criador {
-    padding: 10%;
+  .mensagem-contato {
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 5vh;
+    margin-top: 25%;
+    margin-bottom: 25%;
   }
 
 }
@@ -145,22 +147,20 @@
   .conteudo__apresentacao {
     height: unset;
     margin-bottom: 100px;
-    margin-top: 100px;
+    margin-top: 200px;
   }
-.mensagem-contato {
-  margin: 0% 0%;
 
-}
   .sobre-mim {
     height: unset;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .foto-perfil__foto {
     width: 30%;
   }
+
   .criador {
-  padding: 2%;
+    padding: 3%;
   }
 }

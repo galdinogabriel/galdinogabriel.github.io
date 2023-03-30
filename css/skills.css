@@ -16,10 +16,11 @@
 .skills-grid {
   padding-top: 3%;
   padding-bottom: 3%;
-  width: 40vw;
+  width: 50vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10vh;
+  column-gap: 7vw;
 }
 
 .skills-grid--soft-skills {
@@ -28,7 +29,7 @@
 
 .skills-grid--estudando {
   grid-template-columns: 1fr 1fr;
-   width: 30vw;
+  width: 30vw;
 
 }
 

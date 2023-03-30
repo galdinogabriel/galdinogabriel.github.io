@@ -43,18 +43,13 @@ a {
     top: 0;
 }
 
-.conteudo {
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
 .conteudo__titulo {
     color: var(--cor-tercearia);
     font-size: clamp(20px, 2.70vw, 62px);
     font-weight: 800;
 }
 
-.titulo-cor-destaque {
+.conteudo__titulo--destaque {
     color: var(--cor-destaque);
 }
 
@@ -78,15 +73,3 @@ a {
     text-align: center;
     font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-

@@ -5,7 +5,16 @@
     flex-direction: column;
     align-items: center;
     gap: 6vh;
-    margin-top: 10%;
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5%;
+}
+
+.portfolio__titulos-container {
+    display: flex;
+    align-items: end;
+    gap: 5%;
 }
 
 .projetos-grid-container {
@@ -39,8 +48,6 @@
     justify-content: center;
     gap: 20px;
     padding: 10%;
-    width: auto;
-    height: auto;
     background: var(--cor-secundaria);
     border-radius: 16px;
 }
