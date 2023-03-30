@@ -1,6 +1,6 @@
 <h1>Meu Portfólio Pessoal 🔗</h1>
 <p>Este é um repositório criado do zero por mim onde compartilho alguns dos meus projetos pessoais que realizei</p>
-<p>Site: <a href="gabrielgaldino.vercel.app">gabrielgaldino.vercel.app</a></p>
+<p>Site: <a href="https://galdinogabriel.vercel.app/">gabrielgaldino.vercel.app</a></p>
 
 <h2>Tecnologias usadas 🛠</h2>
 <ul>
