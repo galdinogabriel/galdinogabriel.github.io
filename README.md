@@ -1,5 +1,7 @@
 <h1>Meu Portfólio Pessoal 🔗</h1>
-Este é um repositório criado do zero por mim onde compartilho alguns dos meus projetos pessoais que realizei 
+<p>Este é um repositório criado do zero por mim onde compartilho alguns dos meus projetos pessoais que realizei</p>
+<p>Site: <a href="gabrielgaldino.vercel.app">gabrielgaldino.vercel.app</a></p>
+
 <h2>Tecnologias usadas 🛠</h2>
 <ul>
 <li>HTML5 ✔</li>
@@ -7,7 +9,7 @@ Este é um repositório criado do zero por mim onde compartilho alguns dos meus 
 <li>JavaScript ✔</li>
 </ul>
 <h2>Sobre ⬇</h2>
-<p>Este portfólio é uma demonstração das minhas habilidades em design e desenvolvimento web.</p> 
+<p>Este portfólio é uma demonstração das minhas habilidades em design e desenvolvimento web, onde foram aplicados conceitos importantes de cada tecnologia.</p> 
 <p>Os projetos aqui apresentados foram criados com o objetivo de aprimorar minhas habilidades e mostrar meu trabalho para outras pessoas.</p>
 <h2>Como Contribuir ❤</h2>
 Contribuições são sempre bem-vindas! Se você quiser fazer uma contribuição, sinta-se à vontade para abrir uma issue ou um pull request neste repositório.
