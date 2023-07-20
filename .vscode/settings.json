@@ -29,7 +29,7 @@
   "telemetry.enableTelemetry": false,
   "color-highlight.markerType": "dot-before",
   "editor.renderWhitespace": "selection",
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
